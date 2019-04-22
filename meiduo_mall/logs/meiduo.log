@@ -7,3 +7,14 @@ WARNING 2019-04-22 12:22:40,387 basehttp 124 "GET /static/%7B%7B%20static( HTTP/
 WARNING 2019-04-22 12:22:40,399 basehttp 124 "GET /static/%7B%7B%20static( HTTP/1.1" 404 1649
 WARNING 2019-04-22 12:22:40,621 basehttp 124 "GET /static/%7B%7B%20static( HTTP/1.1" 404 1649
 WARNING 2019-04-22 12:22:41,339 basehttp 124 "GET /static/%7B%7B%20static( HTTP/1.1" 404 1649
+INFO 2019-04-22 13:06:50,373 basehttp 124 "GET / HTTP/1.1" 200 4525
+INFO 2019-04-22 13:06:50,492 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-04-22 13:06:50,495 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-04-22 13:06:50,567 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-04-22 13:06:50,585 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-04-22 13:06:50,588 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-04-22 13:06:50,605 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2019-04-22 13:06:50,611 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-04-22 13:06:51,715 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-04-22 13:06:51,723 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-04-22 13:06:51,726 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
