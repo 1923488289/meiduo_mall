@@ -1,0 +1,9 @@
+WARNING 2019-04-22 12:18:40,794 basehttp 124 "GET /static/register HTTP/1.1" 404 1637
+WARNING 2019-04-22 12:18:53,697 basehttp 124 "GET /static/register/html HTTP/1.1" 404 1652
+INFO 2019-04-22 12:22:38,945 basehttp 124 "GET /static/register.html HTTP/1.1" 200 4670
+WARNING 2019-04-22 12:22:39,015 basehttp 124 "GET /static/%7B%7B%20static( HTTP/1.1" 404 1649
+WARNING 2019-04-22 12:22:39,190 basehttp 124 "GET /static/%7B%7B%20static( HTTP/1.1" 404 1649
+WARNING 2019-04-22 12:22:40,387 basehttp 124 "GET /static/%7B%7B%20static( HTTP/1.1" 404 1649
+WARNING 2019-04-22 12:22:40,399 basehttp 124 "GET /static/%7B%7B%20static( HTTP/1.1" 404 1649
+WARNING 2019-04-22 12:22:40,621 basehttp 124 "GET /static/%7B%7B%20static( HTTP/1.1" 404 1649
+WARNING 2019-04-22 12:22:41,339 basehttp 124 "GET /static/%7B%7B%20static( HTTP/1.1" 404 1649
