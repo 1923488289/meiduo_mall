@@ -45,3 +45,16 @@ class MyClass(View):
         )
         login(request, user)
         return http.HttpResponse('注册成功，重定向到首页')
+
+
+class UserView(View):
+    def get(self, request, username):
+        count = User.objects.filter(username=username).count()
+        # Jsonresponse 1、已经将数据转为json字符串了2、content-type 已经转为applicattion/json
+        return http.JsonResponse({'count': count})
+class MobilView(View):
+    def get(self,request,phone):
+        count=User.objects.filter(mobile=phone).count()
+        return http.JsonResponse(
+            {'count':count}
+        )
