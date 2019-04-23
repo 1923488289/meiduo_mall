@@ -12,6 +12,7 @@
       <list>
         <option value="$MODULE_DIR$/meiduo_mall/utils" />
         <option value="$MODULE_DIR$/meiduo_mall/templates" />
+        <option value="$MODULE_DIR$/meiduo_mall/apps" />
       </list>
     </option>
   </component>
