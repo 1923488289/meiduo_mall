@@ -1,0 +1,2 @@
+#设置过期时间
+IMAGE_CODE_EXPIRES=60 * 5

@@ -38,11 +38,16 @@ class MyClass(View):
             return http.HttpResponseForbidden('请输入正确的手机号码')
         if User.objects.filter(mobile=mobile).count() > 0:
             return http.HttpResponseForbidden('手机号已经存在')
+        #cc创建对象写数据库，create_user 的作用都密码加密，且能写入数据库。
+        #他和create的区别是crate_user 继承了AbstractUser，这里面有加密的方法，
+        #而create 集成的models没有加密的方法，create_user继承了认证类
         user = User.objects.create_user(
             username=username,
             password=password,
             mobile=mobile
         )
+        #状态保持 将注册的信息临时性保存在session中将session保存在缓冲中，
+        # 将缓冲保存在redis数据库中，
         login(request, user)
         return http.HttpResponse('注册成功，重定向到首页')
 
