@@ -3731,3 +3731,261 @@ INFO 2019-04-26 03:19:25,918 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/
 INFO 2019-04-26 03:19:31,804 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
 INFO 2019-04-26 03:19:32,042 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
 INFO 2019-04-26 03:19:32,244 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+WARNING 2019-04-26 03:54:31,987 base 152 Not Found: /login/
+WARNING 2019-04-26 03:54:31,989 basehttp 124 "GET /login/ HTTP/1.1" 404 2941
+INFO 2019-04-26 03:54:35,640 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 03:54:36,051 basehttp 124 "GET /image_codes/5148f904-5242-4de4-bbb4-251bee89b9ff/ HTTP/1.1" 200 3266
+WARNING 2019-04-26 03:54:37,466 base 152 Not Found: /login/
+WARNING 2019-04-26 03:54:37,468 basehttp 124 "GET /login/ HTTP/1.1" 404 2941
+INFO 2019-04-26 03:57:24,488 basehttp 124 "GET /image_codes/3c711245-374e-4792-aab9-2593a4d2ab51/ HTTP/1.1" 200 3193
+WARNING 2019-04-26 03:57:25,189 base 152 Not Found: /login/
+WARNING 2019-04-26 03:57:25,193 basehttp 124 "GET /login/ HTTP/1.1" 404 3096
+WARNING 2019-04-26 03:57:26,837 base 152 Not Found: /login/
+WARNING 2019-04-26 03:57:26,840 basehttp 124 "GET /login/ HTTP/1.1" 404 3096
+WARNING 2019-04-26 03:57:27,854 base 152 Not Found: /login/
+WARNING 2019-04-26 03:57:27,856 basehttp 124 "GET /login/ HTTP/1.1" 404 3096
+WARNING 2019-04-26 03:57:28,042 base 152 Not Found: /login/
+WARNING 2019-04-26 03:57:28,045 basehttp 124 "GET /login/ HTTP/1.1" 404 3096
+INFO 2019-04-26 03:57:28,824 basehttp 124 "GET /image_codes/ce185029-57da-41a8-8214-ed935a7ad097/ HTTP/1.1" 200 3527
+INFO 2019-04-26 03:57:42,912 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+INFO 2019-04-26 03:57:42,925 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 03:57:42,932 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 03:57:42,937 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 03:57:42,950 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 03:57:42,953 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 03:57:43,072 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2019-04-26 03:57:43,102 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-04-26 03:57:43,109 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-04-26 03:57:43,125 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-04-26 03:57:43,130 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-04-26 03:57:43,161 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-04-26 05:07:49,477 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+INFO 2019-04-26 05:07:50,696 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+ERROR 2019-04-26 05:07:57,553 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 109, in post
+    return render(request, '/')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /
+ERROR 2019-04-26 05:07:57,677 basehttp 124 "POST /login/ HTTP/1.1" 500 99292
+WARNING 2019-04-26 05:08:57,436 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 05:08:57,456 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-04-26 05:09:19,206 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 05:09:19,208 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-04-26 05:11:04,758 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 05:11:04,760 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-04-26 05:11:29,819 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 05:11:29,820 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-04-26 05:11:58,210 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-26 05:12:02,790 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 05:12:02,791 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-04-26 05:12:58,103 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-26 05:13:00,291 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 05:13:00,293 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-04-26 05:14:02,697 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:14:10,209 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 05:14:10,399 basehttp 124 "GET /image_codes/bb187192-bfb0-4c60-9f2f-fadad8f03a02/ HTTP/1.1" 200 3060
+INFO 2019-04-26 05:14:10,948 basehttp 124 "GET /register HTTP/1.1" 200 4690
+WARNING 2019-04-26 05:14:11,439 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:14:11,561 basehttp 124 "GET /image_codes/0035e42a-ff48-4f73-a4b8-ac44f293fa91/ HTTP/1.1" 200 2893
+INFO 2019-04-26 05:14:14,232 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+WARNING 2019-04-26 05:14:14,586 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:14:21,968 basehttp 124 "POST /login/ HTTP/1.1" 200 2
+WARNING 2019-04-26 05:14:37,631 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 05:14:37,635 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+INFO 2019-04-26 05:14:40,448 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+WARNING 2019-04-26 05:14:40,750 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:14:43,178 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+INFO 2019-04-26 05:14:43,261 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 05:14:43,271 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 05:14:43,275 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 05:14:43,318 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 05:14:43,334 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 05:14:43,341 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-04-26 05:14:43,357 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-04-26 05:14:43,360 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+WARNING 2019-04-26 05:14:43,641 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:14:45,858 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+WARNING 2019-04-26 05:14:46,225 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:14:47,983 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+WARNING 2019-04-26 05:14:48,333 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-26 05:14:52,972 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:14:55,626 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+WARNING 2019-04-26 05:14:56,017 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-26 05:15:07,760 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:15:09,225 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+WARNING 2019-04-26 05:15:09,705 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:15:34,457 basehttp 124 "GET /register HTTP/1.1" 200 4690
+WARNING 2019-04-26 05:15:34,839 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:15:35,104 basehttp 124 "GET /image_codes/e9737efa-332f-445b-8cd7-83ec64267c56/ HTTP/1.1" 200 3263
+INFO 2019-04-26 05:15:37,356 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+WARNING 2019-04-26 05:15:37,768 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 05:15:39,291 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+WARNING 2019-04-26 05:15:39,689 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-26 05:15:46,963 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 109, in post
+    return render(request, '/')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /
+ERROR 2019-04-26 05:15:47,056 basehttp 124 "POST /login/ HTTP/1.1" 500 99597
+WARNING 2019-04-26 07:02:50,825 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 07:02:55,540 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+WARNING 2019-04-26 07:02:56,030 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 07:02:58,051 basehttp 124 "GET /register HTTP/1.1" 200 4690
+WARNING 2019-04-26 07:02:58,365 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 07:02:58,477 basehttp 124 "GET /image_codes/57364b9c-2d9d-46e6-a29d-0f689c30b8bc/ HTTP/1.1" 200 3166
+INFO 2019-04-26 07:03:03,716 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 07:03:15,389 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+ERROR 2019-04-26 07:03:15,409 exception 135 Internal Server Error: /sms_codes/13838241868/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 77, in get
+    send_tasks.delay(mobile,[sms_code, constants.TMAGE_CODE_SMS / 60], 1)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/celery/app/task.py", line 427, in delay
+    return self.apply_async(args, kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/celery/app/task.py", line 532, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: send_tasks() missing 1 required positional argument: 'tempid'
+ERROR 2019-04-26 07:03:15,532 basehttp 124 "GET /sms_codes/13838241868/?image_code=e37m&image_code_id=57364b9c-2d9d-46e6-a29d-0f689c30b8bc HTTP/1.1" 500 97446
+INFO 2019-04-26 07:03:16,922 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 07:03:16,928 basehttp 124 "GET /sms_codes/13838241868/?image_code=e37m&image_code_id=57364b9c-2d9d-46e6-a29d-0f689c30b8bc HTTP/1.1" 200 72
+INFO 2019-04-26 07:03:16,977 basehttp 124 "GET /image_codes/32088b18-4429-46f8-aa26-8931a2c78ba5/ HTTP/1.1" 200 3398
+INFO 2019-04-26 07:03:26,706 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 07:03:26,713 basehttp 124 "GET /sms_codes/13838241868/?image_code=wqjf&image_code_id=32088b18-4429-46f8-aa26-8931a2c78ba5 HTTP/1.1" 200 72
+INFO 2019-04-26 07:03:26,760 basehttp 124 "GET /image_codes/607318bf-6e39-48a5-9409-1e45abc31168/ HTTP/1.1" 200 2941
+INFO 2019-04-26 07:03:38,200 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 07:03:38,205 basehttp 124 "GET /sms_codes/13838241868/?image_code=wqjf&image_code_id=607318bf-6e39-48a5-9409-1e45abc31168 HTTP/1.1" 200 72
+INFO 2019-04-26 07:03:38,244 basehttp 124 "GET /image_codes/fc04a5ee-66d0-4bf7-8b0d-e2422d8b7223/ HTTP/1.1" 200 3236
+INFO 2019-04-26 07:03:46,495 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 07:03:46,502 basehttp 124 "GET /sms_codes/13838241868/?image_code=gktg&image_code_id=fc04a5ee-66d0-4bf7-8b0d-e2422d8b7223 HTTP/1.1" 200 72
+INFO 2019-04-26 07:03:46,556 basehttp 124 "GET /image_codes/6f97c39a-e0a1-4afb-9132-a2269cb622bc/ HTTP/1.1" 200 3272
+INFO 2019-04-26 07:06:06,688 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+WARNING 2019-04-26 07:06:07,074 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-26 07:06:16,989 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 109, in post
+    return render(request, '/')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /
+ERROR 2019-04-26 07:06:17,073 basehttp 124 "POST /login/ HTTP/1.1" 500 99597
+INFO 2019-04-26 08:30:12,147 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+WARNING 2019-04-26 08:30:12,603 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-26 08:31:20,378 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 08:31:20,380 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-04-26 08:31:24,703 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-26 08:31:51,864 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 08:31:51,866 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-04-26 08:32:15,737 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-26 08:32:32,706 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-04-26 08:32:32,707 basehttp 124 "POST /login/ HTTP/1.1" 403 2502
+WARNING 2019-04-26 08:32:35,354 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 08:32:37,092 basehttp 124 "GET /login/ HTTP/1.1" 200 3615
+INFO 2019-04-26 08:32:37,183 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 08:32:37,188 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 08:32:37,196 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 08:32:37,241 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 08:32:37,250 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 08:32:37,255 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-04-26 08:32:37,262 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-04-26 08:32:37,269 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+WARNING 2019-04-26 08:32:37,646 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-26 08:32:49,688 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/utils/module_loading.py", line 23, in import_string
+    return getattr(module, class_name)
+AttributeError: module 'meiduo_mall.utils.auth_backend' has no attribute 'Meiduobackend'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 102, in post
+    user = authenticate(username=username, password=pwd)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 68, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 29, in _get_backends
+    backend = load_backend(backend_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 23, in load_backend
+    return import_string(path)()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/utils/module_loading.py", line 27, in import_string
+    six.reraise(ImportError, ImportError(msg), sys.exc_info()[2])
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/utils/module_loading.py", line 23, in import_string
+    return getattr(module, class_name)
+ImportError: Module "meiduo_mall.utils.auth_backend" does not define a "Meiduobackend" attribute/class
+ERROR 2019-04-26 08:32:49,880 basehttp 124 "POST /login/ HTTP/1.1" 500 117193
+INFO 2019-04-26 08:33:13,098 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+WARNING 2019-04-26 08:33:13,519 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 08:33:15,465 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+WARNING 2019-04-26 08:33:15,873 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 08:33:21,170 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+WARNING 2019-04-26 08:33:21,579 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 08:33:30,454 basehttp 124 "POST /login/ HTTP/1.1" 200 3736
+WARNING 2019-04-26 08:33:30,898 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-26 08:34:10,334 csrf 160 Forbidden (CSRF cookie not set.): /login/
+WARNING 2019-04-26 08:34:10,336 basehttp 124 "POST /login/ HTTP/1.1" 403 2857

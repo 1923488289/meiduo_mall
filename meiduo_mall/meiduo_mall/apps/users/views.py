@@ -8,7 +8,7 @@ from django_redis import get_redis_connection
 # from pymysql import DatabaseError
 
 from users.models import User
-
+from django.contrib.auth import authenticate
 
 class MyClass(View):
     def get(self, request):
@@ -41,15 +41,15 @@ class MyClass(View):
             return http.HttpResponseForbidden('请输入正确的手机号码')
         if User.objects.filter(mobile=mobile).count() > 0:
             return http.HttpResponseForbidden('手机号已经存在')
-        #获取链接对象
+        # 获取链接对象
         redis_conn = get_redis_connection('verificat_code')
-        #取出值
+        # 取出值
         redis_server_m = redis_conn.get('sms_' + mobile)
         # print(redis_server_m+'redis')
 
         if redis_server_m is None:
             return http.HttpResponseBadRequest('验证码过期')
-        if sms_code !=redis_server_m.decode():
+        if sms_code != redis_server_m.decode():
             return http.HttpResponseBadRequest('验证码不正确')
         redis_conn.delete('sms_' + mobile)
 
@@ -80,3 +80,31 @@ class MobilView(View):
         return http.JsonResponse(
             {'count': count}
         )
+
+
+
+
+
+class LoginView(View):
+    def get(self, request):
+        return render(request, 'login.html')
+
+    def post(self, request):
+
+        username = request.POST.get('username')
+        pwd = request.POST.get('pwd')
+        if not all([pwd, username]):
+            return http.HttpResponseBadRequest('缺少必填参数')
+        if not re.match(r'^[a-zA-Z0-9_-]{5,20}$', username):
+            return http.HttpResponseForbidden('请输入5-20个字符的用户名')
+        if not re.match(r'^[0-9A-Za-z]{8,20}$', pwd):
+            return http.HttpResponseForbidden('请输入8-20位的密码')
+        user = authenticate(username=username, password=pwd)
+        if user is None:
+            return render(request, 'login.html', {
+                'loginerror': '用户名或者密码错误'
+            })
+        else:
+            login(request, user)
+            return render(request, '/')
+            # return http.HttpResponse('ok')
