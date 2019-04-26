@@ -170,8 +170,9 @@ CACHES = {
         }
     },
 }
-
+#修改session 存储机制 使用redis 存储
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+#名为session 的redis数据库存储数据为session
 SESSION_CACHE_ALIAS = "session"
 
 
@@ -217,5 +218,5 @@ LOGGING = {
     }
 }
 
-
+#认证系统的用户模型类是通过该决定的
 AUTH_USER_MODEL='users.User'

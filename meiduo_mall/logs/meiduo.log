@@ -1727,3 +1727,2007 @@ INFO 2019-04-24 06:29:12,987 basehttp 124 "GET /static/images/logo.png HTTP/1.1"
 WARNING 2019-04-24 06:29:13,263 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
 INFO 2019-04-24 06:29:13,430 basehttp 124 "GET /image_codes/859d270a-9264-4b6e-8515-00e7b00e0b0d/ HTTP/1.1" 200 3375
 INFO 2019-04-24 06:44:36,858 basehttp 124 "GET /image_codes/874e6c4d-701f-4077-8047-18606c41b17f/ HTTP/1.1" 200 2759
+INFO 2019-04-24 07:45:58,050 basehttp 124 "GET /usernames/pythonplus/count/ HTTP/1.1" 200 12
+INFO 2019-04-24 07:46:03,170 basehttp 124 "GET /image_codes/c3ab58cf-7de6-434e-91f8-f58879ee6769/ HTTP/1.1" 200 3491
+INFO 2019-04-24 08:42:21,300 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 08:42:21,416 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 08:42:21,424 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 08:42:21,429 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 08:42:21,456 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 08:42:21,462 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 08:42:21,497 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 08:42:21,545 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-24 08:42:22,160 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 08:42:22,761 basehttp 124 "GET /image_codes/e6c9fb5f-d2ff-48d4-9ff7-e0b15a563be5/ HTTP/1.1" 200 3295
+INFO 2019-04-24 08:42:22,781 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2019-04-24 08:42:22,804 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2019-04-24 08:42:22,832 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-04-24 08:43:06,413 basehttp 124 "GET /image_codes/37368263-ce87-4a81-bdb6-a59449af281f/ HTTP/1.1" 200 3349
+INFO 2019-04-24 12:30:06,757 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:30:08,383 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:30:08,424 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:30:08,438 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:30:08,440 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:30:08,442 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:30:08,463 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:30:08,485 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-24 12:30:11,663 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-24 12:30:12,496 exception 135 Internal Server Error: /image_codes/b08ba2b5-a170-4985-b383-a5c787b4fbbc/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:30:13,059 basehttp 124 "GET /image_codes/b08ba2b5-a170-4985-b383-a5c787b4fbbc/ HTTP/1.1" 500 123030
+ERROR 2019-04-24 12:30:21,173 exception 135 Internal Server Error: /image_codes/7a936951-1f26-4b45-9ece-09145d0afb02/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:30:21,289 basehttp 124 "GET /image_codes/7a936951-1f26-4b45-9ece-09145d0afb02/ HTTP/1.1" 500 122852
+ERROR 2019-04-24 12:30:34,954 exception 135 Internal Server Error: /image_codes/180d42d6-cd86-40a4-ae75-5bc302ee5988/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:30:35,148 basehttp 124 "GET /image_codes/180d42d6-cd86-40a4-ae75-5bc302ee5988/ HTTP/1.1" 500 122864
+INFO 2019-04-24 12:31:41,012 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:31:41,127 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:41,129 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:41,139 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:41,141 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:41,146 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:41,165 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:41,166 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2019-04-24 12:31:41,486 exception 135 Internal Server Error: /image_codes/93fa232f-8104-4bef-8794-efd37272c21e/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:31:41,608 basehttp 124 "GET /image_codes/93fa232f-8104-4bef-8794-efd37272c21e/ HTTP/1.1" 500 122989
+INFO 2019-04-24 12:31:43,692 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:31:43,855 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:43,869 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:43,876 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:43,923 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:43,945 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:43,966 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:31:43,975 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:31:44,305 exception 135 Internal Server Error: /image_codes/b7a69f0d-4982-4dca-9368-c2c0b82460cf/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:31:44,564 basehttp 124 "GET /image_codes/b7a69f0d-4982-4dca-9368-c2c0b82460cf/ HTTP/1.1" 500 122980
+INFO 2019-04-24 12:32:05,936 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:32:05,973 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:05,977 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:05,980 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:05,985 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:05,987 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:06,009 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:06,025 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:32:06,397 exception 135 Internal Server Error: /image_codes/ee11c0b8-630f-4de4-b897-0c85b51eaac3/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:32:06,686 basehttp 124 "GET /image_codes/ee11c0b8-630f-4de4-b897-0c85b51eaac3/ HTTP/1.1" 500 122993
+INFO 2019-04-24 12:32:09,076 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:32:09,266 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:09,269 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:09,282 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:09,290 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:09,319 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:09,325 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:09,342 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2019-04-24 12:32:09,611 exception 135 Internal Server Error: /image_codes/87592ef5-cc5d-4f24-8e8b-6caa6d0b8b15/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:32:09,714 basehttp 124 "GET /image_codes/87592ef5-cc5d-4f24-8e8b-6caa6d0b8b15/ HTTP/1.1" 500 123009
+INFO 2019-04-24 12:32:18,662 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:32:18,705 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:18,712 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:18,731 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:18,742 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:18,749 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:18,772 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:18,791 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:32:19,000 exception 135 Internal Server Error: /image_codes/5ba82bad-54e8-450d-b194-2fe84c2d7c04/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:32:19,116 basehttp 124 "GET /image_codes/5ba82bad-54e8-450d-b194-2fe84c2d7c04/ HTTP/1.1" 500 122988
+INFO 2019-04-24 12:32:20,939 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:32:20,971 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:20,982 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:20,984 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:20,999 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:21,018 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:21,034 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:32:21,066 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:32:21,167 exception 135 Internal Server Error: /image_codes/4b4d55e2-bca0-4665-915b-0fcf55e0987a/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:32:21,331 basehttp 124 "GET /image_codes/4b4d55e2-bca0-4665-915b-0fcf55e0987a/ HTTP/1.1" 500 122985
+INFO 2019-04-24 12:40:29,911 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:40:30,766 basehttp 124 "GET /image_codes/d4ae8f51-a2f6-480f-8c75-3fde0fc0c7f2/ HTTP/1.1" 200 3251
+WARNING 2019-04-24 12:40:30,841 base 152 Not Found: /favicon.ico
+WARNING 2019-04-24 12:40:30,843 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2762
+INFO 2019-04-24 12:41:44,861 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:41:44,889 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:44,892 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:44,895 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:44,911 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:44,918 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:44,932 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:44,949 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:41:45,183 exception 135 Internal Server Error: /image_codes/d2b0a6d8-5b83-40d3-ab76-e9d2bf6be5d7/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:41:45,349 basehttp 124 "GET /image_codes/d2b0a6d8-5b83-40d3-ab76-e9d2bf6be5d7/ HTTP/1.1" 500 123194
+INFO 2019-04-24 12:41:47,215 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:41:47,255 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:47,259 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:47,266 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:47,269 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:47,283 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:47,299 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:47,330 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:41:47,520 exception 135 Internal Server Error: /image_codes/1f7bc70e-5818-4ea4-9c60-c99999781c0c/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:41:47,659 basehttp 124 "GET /image_codes/1f7bc70e-5818-4ea4-9c60-c99999781c0c/ HTTP/1.1" 500 123180
+INFO 2019-04-24 12:41:48,120 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:41:48,200 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,202 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,207 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,212 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,232 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,247 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,253 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2019-04-24 12:41:48,401 exception 135 Internal Server Error: /image_codes/e0e0468f-491a-46f9-baa1-8add00f48f67/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:41:48,542 basehttp 124 "GET /image_codes/e0e0468f-491a-46f9-baa1-8add00f48f67/ HTTP/1.1" 500 123182
+INFO 2019-04-24 12:41:48,757 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:41:48,809 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,812 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,816 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,823 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,843 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,865 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:48,882 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2019-04-24 12:41:49,000 exception 135 Internal Server Error: /image_codes/b7ea51dc-d05d-45ed-be2e-0910b40608b8/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:41:49,129 basehttp 124 "GET /image_codes/b7ea51dc-d05d-45ed-be2e-0910b40608b8/ HTTP/1.1" 500 123186
+INFO 2019-04-24 12:41:49,324 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:41:49,367 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:49,371 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:49,375 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:49,377 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:49,380 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:49,402 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-24 12:41:49,412 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2019-04-24 12:41:49,502 exception 135 Internal Server Error: /image_codes/95da7f9c-a61a-47a0-bdc9-b3e4411898ee/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:41:49,630 basehttp 124 "GET /image_codes/95da7f9c-a61a-47a0-bdc9-b3e4411898ee/ HTTP/1.1" 500 123189
+INFO 2019-04-24 12:43:28,514 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:43:28,553 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:28,555 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:28,557 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:28,560 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:28,563 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:28,578 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:28,599 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:43:28,805 exception 135 Internal Server Error: /image_codes/986f2033-66b7-408e-a4e6-5c965254867c/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:43:28,919 basehttp 124 "GET /image_codes/986f2033-66b7-408e-a4e6-5c965254867c/ HTTP/1.1" 500 123165
+INFO 2019-04-24 12:43:29,890 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:43:29,937 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:29,940 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:29,942 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:29,947 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:29,950 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:29,969 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-24 12:43:30,024 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2019-04-24 12:43:30,159 exception 135 Internal Server Error: /image_codes/b77fed8c-862a-4435-91c7-392b7597d9b8/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:43:30,306 basehttp 124 "GET /image_codes/b77fed8c-862a-4435-91c7-392b7597d9b8/ HTTP/1.1" 500 123191
+INFO 2019-04-24 12:44:20,336 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:44:20,375 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,387 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,390 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,392 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,398 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,411 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,413 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:44:20,644 exception 135 Internal Server Error: /image_codes/ea9fa367-f50a-4120-8c2f-ff4b516a494a/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:44:20,780 basehttp 124 "GET /image_codes/ea9fa367-f50a-4120-8c2f-ff4b516a494a/ HTTP/1.1" 500 123170
+INFO 2019-04-24 12:44:20,834 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:44:20,872 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,878 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,892 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,895 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,905 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,911 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:20,926 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:44:21,065 exception 135 Internal Server Error: /image_codes/0eda2f63-2d1d-43d2-9fed-3dfb9fb9f0b6/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:44:21,193 basehttp 124 "GET /image_codes/0eda2f63-2d1d-43d2-9fed-3dfb9fb9f0b6/ HTTP/1.1" 500 123166
+INFO 2019-04-24 12:44:21,286 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:44:21,328 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,332 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,347 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,373 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,381 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,391 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,406 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-04-24 12:44:21,539 exception 135 Internal Server Error: /image_codes/4607ebb0-85af-4d5d-9a5c-a7e88eb31ce2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:44:21,668 basehttp 124 "GET /image_codes/4607ebb0-85af-4d5d-9a5c-a7e88eb31ce2/ HTTP/1.1" 500 123180
+INFO 2019-04-24 12:44:21,759 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:44:21,812 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,818 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,833 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,852 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,874 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,886 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:21,889 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2019-04-24 12:44:22,021 exception 135 Internal Server Error: /image_codes/e77eaf24-f4db-4881-9f48-046fd922fe77/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-24 12:44:22,156 basehttp 124 "GET /image_codes/e77eaf24-f4db-4881-9f48-046fd922fe77/ HTTP/1.1" 500 123196
+INFO 2019-04-24 12:44:51,833 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:44:51,871 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:51,873 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:51,876 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:51,893 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:51,897 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:51,919 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:51,935 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:52,116 basehttp 124 "GET /image_codes/e2d0dc8a-9788-439d-b997-27e54da60464/ HTTP/1.1" 200 3063
+INFO 2019-04-24 12:44:52,266 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-24 12:44:52,305 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:52,307 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:52,310 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:52,313 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:52,317 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:52,337 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:52,350 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-24 12:44:52,477 basehttp 124 "GET /image_codes/47ae1179-b412-4820-933d-5891df0e42f8/ HTTP/1.1" 200 2921
+INFO 2019-04-25 01:31:00,732 basehttp 124 "GET /static/index.html HTTP/1.1" 200 25805
+INFO 2019-04-25 01:31:00,787 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:31:00,808 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:31:00,825 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:31:00,878 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:31:00,886 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-04-25 01:31:00,905 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-04-25 01:31:00,913 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-04-25 01:31:00,940 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1418
+INFO 2019-04-25 01:31:00,941 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:31:00,966 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-25 01:31:00,996 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-04-25 01:31:01,045 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-04-25 01:31:01,073 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-04-25 01:31:01,081 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-04-25 01:31:01,093 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-04-25 01:31:01,127 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-04-25 01:31:01,135 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2019-04-25 01:31:01,154 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-04-25 01:31:01,173 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-04-25 01:31:01,198 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-04-25 01:31:01,210 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-04-25 01:31:01,243 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-04-25 01:31:01,249 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-04-25 01:31:01,257 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-04-25 01:31:01,281 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-04-25 01:31:01,427 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-04-25 01:31:02,088 base 152 Not Found: /carts/simple/
+WARNING 2019-04-25 01:31:02,091 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2768
+WARNING 2019-04-25 01:31:02,328 base 152 Not Found: /favicon.ico
+WARNING 2019-04-25 01:31:02,331 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2762
+WARNING 2019-04-25 01:31:24,677 base 152 Not Found: /index.html
+WARNING 2019-04-25 01:31:24,679 basehttp 124 "GET /index.html HTTP/1.1" 404 2759
+WARNING 2019-04-25 01:31:35,042 base 152 Not Found: /carts/simple/
+WARNING 2019-04-25 01:31:35,043 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 2768
+WARNING 2019-04-25 01:47:08,628 base 152 Not Found: /readpic1
+WARNING 2019-04-25 01:47:08,632 basehttp 124 "GET /readpic1 HTTP/1.1" 404 2753
+INFO 2019-04-25 01:47:09,209 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 01:47:09,370 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:47:10,813 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-04-25 01:47:10,865 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2019-04-25 01:47:10,866 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+ERROR 2019-04-25 01:47:10,928 exception 135 Internal Server Error: /image_codes/98273abf-0b17-4017-bb53-62f403e39833/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:47:11,702 basehttp 124 "GET /image_codes/98273abf-0b17-4017-bb53-62f403e39833/ HTTP/1.1" 500 123022
+WARNING 2019-04-25 01:47:44,494 base 152 Not Found: /index
+WARNING 2019-04-25 01:47:44,506 basehttp 124 "GET /index HTTP/1.1" 404 2744
+INFO 2019-04-25 01:47:47,292 basehttp 124 "GET /register HTTP/1.1" 200 4690
+ERROR 2019-04-25 01:47:47,937 exception 135 Internal Server Error: /image_codes/3876fa08-b37e-4e87-b54e-543ea823fdc6/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:47:48,248 basehttp 124 "GET /image_codes/3876fa08-b37e-4e87-b54e-543ea823fdc6/ HTTP/1.1" 500 123048
+WARNING 2019-04-25 01:48:27,216 base 152 Not Found: /index.html
+WARNING 2019-04-25 01:48:27,216 basehttp 124 "GET /index.html HTTP/1.1" 404 2759
+WARNING 2019-04-25 01:48:39,642 base 152 Not Found: /index.html
+WARNING 2019-04-25 01:48:39,646 basehttp 124 "GET /index.html HTTP/1.1" 404 2759
+INFO 2019-04-25 01:48:44,062 basehttp 124 "GET /register HTTP/1.1" 200 4690
+ERROR 2019-04-25 01:48:44,270 exception 135 Internal Server Error: /image_codes/c888f55e-bc67-4a7d-897b-6b2a22e4c0b2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:48:45,837 basehttp 124 "GET /image_codes/c888f55e-bc67-4a7d-897b-6b2a22e4c0b2/ HTTP/1.1" 500 123040
+INFO 2019-04-25 01:48:50,935 basehttp 124 "GET /register HTTP/1.1" 200 4690
+WARNING 2019-04-25 01:48:51,295 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-25 01:48:51,404 exception 135 Internal Server Error: /image_codes/b207e8ed-ad6e-4f3b-afbd-09f90cfd8855/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:48:51,632 basehttp 124 "GET /image_codes/b207e8ed-ad6e-4f3b-afbd-09f90cfd8855/ HTTP/1.1" 500 123015
+INFO 2019-04-25 01:48:54,513 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 01:48:54,613 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:54,692 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:54,706 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:54,722 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:54,742 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:54,780 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:54,824 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 01:48:55,106 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-25 01:48:55,495 exception 135 Internal Server Error: /image_codes/5430bd9b-de4e-4a34-ab7c-c977f335a6bb/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:48:55,752 basehttp 124 "GET /image_codes/5430bd9b-de4e-4a34-ab7c-c977f335a6bb/ HTTP/1.1" 500 123177
+INFO 2019-04-25 01:48:58,130 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 01:48:58,206 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:58,246 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:58,276 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:58,284 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:58,302 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:58,328 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:48:58,358 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 01:48:58,512 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-25 01:48:58,725 exception 135 Internal Server Error: /image_codes/fbb65b4a-3092-450b-8a59-be147e35541a/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:48:58,882 basehttp 124 "GET /image_codes/fbb65b4a-3092-450b-8a59-be147e35541a/ HTTP/1.1" 500 123150
+INFO 2019-04-25 01:50:14,592 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 01:50:14,885 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:14,908 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:15,021 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:15,026 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:15,031 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:15,049 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:15,149 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 01:50:15,709 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-25 01:50:16,099 exception 135 Internal Server Error: /image_codes/6bd76135-5f2a-4aed-bce1-b44237774d5b/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:50:16,367 basehttp 124 "GET /image_codes/6bd76135-5f2a-4aed-bce1-b44237774d5b/ HTTP/1.1" 500 123174
+INFO 2019-04-25 01:50:18,313 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 01:50:18,433 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:18,452 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:18,476 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:18,539 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:18,551 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:18,594 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:18,632 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 01:50:18,852 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-25 01:50:19,655 exception 135 Internal Server Error: /image_codes/9b1af411-51cf-43fa-9e81-b061b8c96145/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:50:19,879 basehttp 124 "GET /image_codes/9b1af411-51cf-43fa-9e81-b061b8c96145/ HTTP/1.1" 500 123185
+INFO 2019-04-25 01:50:33,460 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 01:50:33,521 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:33,544 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:33,551 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:33,593 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:33,608 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:33,633 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:33,660 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 01:50:33,906 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-25 01:50:34,122 exception 135 Internal Server Error: /image_codes/e80d8a01-711f-4138-adf9-af34be0a3140/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:50:34,278 basehttp 124 "GET /image_codes/e80d8a01-711f-4138-adf9-af34be0a3140/ HTTP/1.1" 500 123183
+INFO 2019-04-25 01:50:40,880 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 01:50:40,951 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:40,956 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:40,960 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:40,988 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:40,995 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:41,001 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 01:50:41,053 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 01:50:41,385 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-25 01:50:41,658 exception 135 Internal Server Error: /image_codes/1350d3c0-2dc9-417d-9f6a-4987cbbcbfbb/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 01:50:41,819 basehttp 124 "GET /image_codes/1350d3c0-2dc9-417d-9f6a-4987cbbcbfbb/ HTTP/1.1" 500 123181
+INFO 2019-04-25 01:51:25,025 basehttp 124 "GET /usernames/pythonplus/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 02:20:31,699 basehttp 124 "GET /usernames/pythonplus/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 02:20:33,472 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-25 02:20:35,497 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 02:20:35,568 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 02:20:35,572 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 02:20:35,592 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 02:20:35,643 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 02:20:35,653 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 02:20:35,671 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 02:20:35,685 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 02:20:35,969 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+ERROR 2019-04-25 02:20:36,421 exception 135 Internal Server Error: /image_codes/7a461655-6f1f-4a8e-913c-32c17394596d/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 492, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 16, in get
+    redis_cli.setex(uuid, constants.IMAGE_CODE_EXPIRES, code)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1472, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-04-25 02:20:36,595 basehttp 124 "GET /image_codes/7a461655-6f1f-4a8e-913c-32c17394596d/ HTTP/1.1" 500 123150
+INFO 2019-04-25 02:38:10,965 basehttp 124 "GET /image_codes/d673219b-b02a-4a99-bedd-7a7effb77fbd/ HTTP/1.1" 200 3165
+INFO 2019-04-25 02:38:14,356 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 02:39:57,356 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 02:40:02,525 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 03:30:28,599 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 03:31:12,082 basehttp 124 "GET /image_codes/d673219b-b02a-4a99-bedd-7a7effb77fbd/ HTTP/1.1" 200 3168
+INFO 2019-04-25 03:32:42,419 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 03:32:42,537 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 03:32:42,543 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 03:32:42,576 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 03:32:42,579 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 03:32:42,591 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 03:32:42,600 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 03:32:42,631 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 03:32:44,397 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-25 03:32:45,320 basehttp 124 "GET /image_codes/13c71844-a2b7-4d5c-bea4-35300af5b27b/ HTTP/1.1" 200 3063
+INFO 2019-04-25 03:32:57,940 basehttp 124 "GET /image_codes/89465873-0abd-45c5-ab73-4226679503ef/ HTTP/1.1" 200 3394
+INFO 2019-04-25 13:05:58,060 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 13:05:58,565 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:05:58,572 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:05:58,626 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:05:58,654 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:05:58,661 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:05:58,666 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-25 13:05:58,675 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:05:59,502 basehttp 124 "GET /image_codes/5eda6ca3-404f-4743-b079-393cc96a53f7/ HTTP/1.1" 200 2915
+INFO 2019-04-25 13:10:13,887 basehttp 124 "GET /usernames/majian/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:10:46,897 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:10:54,776 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:10:54,778 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:10:54,785 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+WARNING 2019-04-25 13:10:57,134 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:10:57,139 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:10:57,168 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:10:57,598 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:10:57,600 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:10:57,605 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:10:57,791 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:10:57,800 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:10:57,820 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:10:57,996 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:10:58,001 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:10:58,004 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:10:58,184 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:10:58,187 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:10:58,191 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:10:58,701 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:10:58,704 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:10:58,759 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:10:58,863 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:10:58,867 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:10:58,872 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:00,467 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:12:00,473 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:12:00,491 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:00,951 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:12:00,958 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:12:00,963 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:01,180 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:12:01,183 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:12:01,189 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:01,389 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:12:01,392 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:12:01,419 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:01,591 base 152 Not Found: /sms_codes/13838241868/
+INFO 2019-04-25 13:12:01,595 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:01,602 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+WARNING 2019-04-25 13:12:01,812 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:12:01,816 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:12:01,818 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:02,011 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:12:02,014 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:12:02,035 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:02,208 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:12:02,211 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:12:02,225 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:02,397 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:12:02,408 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:12:02,411 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:12:02,600 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:12:02,603 basehttp 124 "GET /sms_codes/13838241868/?image_code=sgot&image_code_id=5eda6ca3-404f-4743-b079-393cc96a53f7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:12:02,612 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:12:38,806 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 13:12:38,848 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:12:38,851 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:12:38,853 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:12:38,885 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:12:38,892 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:12:38,903 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:12:38,912 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-25 13:12:39,137 basehttp 124 "GET /image_codes/c7e21209-0f13-4c53-a331-c7cbf6fbb8d7/ HTTP/1.1" 200 3276
+INFO 2019-04-25 13:12:44,630 basehttp 124 "GET /usernames/majian/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:12:56,898 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:13:04,606 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:13:04,609 basehttp 124 "GET /sms_codes/13838241868/?image_code=w7nh&image_code_id=c7e21209-0f13-4c53-a331-c7cbf6fbb8d7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:13:04,647 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:13:05,253 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:13:05,256 basehttp 124 "GET /sms_codes/13838241868/?image_code=w7nh&image_code_id=c7e21209-0f13-4c53-a331-c7cbf6fbb8d7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:13:05,292 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:13:05,440 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:13:05,443 basehttp 124 "GET /sms_codes/13838241868/?image_code=w7nh&image_code_id=c7e21209-0f13-4c53-a331-c7cbf6fbb8d7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:13:05,472 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:13:05,634 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:13:05,637 basehttp 124 "GET /sms_codes/13838241868/?image_code=w7nh&image_code_id=c7e21209-0f13-4c53-a331-c7cbf6fbb8d7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:13:05,640 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:13:05,809 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:13:05,821 base 152 Not Found: /sms_codes/13838241868/
+WARNING 2019-04-25 13:13:05,825 basehttp 124 "GET /sms_codes/13838241868/?image_code=w7nh&image_code_id=c7e21209-0f13-4c53-a331-c7cbf6fbb8d7 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:14:39,731 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 13:14:39,771 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:14:39,774 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:14:39,788 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:14:39,794 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:14:39,809 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:14:39,815 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-04-25 13:14:39,818 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:14:40,027 basehttp 124 "GET /image_codes/83a942e4-9da0-435e-8234-280b689372eb/ HTTP/1.1" 200 3011
+INFO 2019-04-25 13:14:45,781 basehttp 124 "GET /usernames/majian/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:15:35,431 basehttp 124 "GET /mobiles/13123456782/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:15:36,725 basehttp 124 "GET /mobiles/13123456782/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:15:45,380 base 152 Not Found: /sms_codes/13123456782/
+WARNING 2019-04-25 13:15:45,384 basehttp 124 "GET /sms_codes/13123456782/?image_code=c1ft&image_code_id=83a942e4-9da0-435e-8234-280b689372eb HTTP/1.1" 404 3053
+INFO 2019-04-25 13:15:45,389 basehttp 124 "GET /mobiles/13123456782/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:15:45,994 base 152 Not Found: /sms_codes/13123456782/
+WARNING 2019-04-25 13:15:45,996 basehttp 124 "GET /sms_codes/13123456782/?image_code=c1ft&image_code_id=83a942e4-9da0-435e-8234-280b689372eb HTTP/1.1" 404 3053
+INFO 2019-04-25 13:15:46,020 basehttp 124 "GET /mobiles/13123456782/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:15:46,132 base 152 Not Found: /sms_codes/13123456782/
+INFO 2019-04-25 13:15:46,142 basehttp 124 "GET /mobiles/13123456782/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:15:46,144 basehttp 124 "GET /sms_codes/13123456782/?image_code=c1ft&image_code_id=83a942e4-9da0-435e-8234-280b689372eb HTTP/1.1" 404 3053
+WARNING 2019-04-25 13:20:24,822 base 152 Not Found: /sms_codes/13123456782/
+WARNING 2019-04-25 13:20:24,855 basehttp 124 "GET /sms_codes/13123456782/?image_code=c1ft&image_code_id=83a942e4-9da0-435e-8234-280b689372eb HTTP/1.1" 404 3053
+INFO 2019-04-25 13:20:24,884 basehttp 124 "GET /mobiles/13123456782/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:20:25,049 basehttp 124 "GET /mobiles/13123456782/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:20:25,061 base 152 Not Found: /sms_codes/13123456782/
+WARNING 2019-04-25 13:20:25,069 basehttp 124 "GET /sms_codes/13123456782/?image_code=c1ft&image_code_id=83a942e4-9da0-435e-8234-280b689372eb HTTP/1.1" 404 3053
+INFO 2019-04-25 13:21:38,527 basehttp 124 "GET /image_codes/8afb4afa-98b9-43f8-bbae-ff4719e504b5/ HTTP/1.1" 200 2994
+INFO 2019-04-25 13:21:38,734 basehttp 124 "GET /image_codes/00e230fd-dc9c-461a-9be8-65df17f68251/ HTTP/1.1" 200 3017
+WARNING 2019-04-25 13:21:48,985 base 152 Not Found: /sms_codes/13123456782/
+WARNING 2019-04-25 13:21:48,988 basehttp 124 "GET /sms_codes/13123456782/?image_code=ovtp&image_code_id=00e230fd-dc9c-461a-9be8-65df17f68251 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:21:49,021 basehttp 124 "GET /mobiles/13123456782/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:22:17,694 base 152 Not Found: /sms_codes/13123456782/
+WARNING 2019-04-25 13:22:17,699 basehttp 124 "GET /sms_codes/13123456782/?image_code=ovtp&image_code_id=00e230fd-dc9c-461a-9be8-65df17f68251 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:22:17,744 basehttp 124 "GET /mobiles/13123456782/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:23:22,247 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 13:23:22,333 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:23:22,337 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:23:22,374 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:23:22,380 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:23:22,395 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:23:22,402 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:23:22,425 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 13:23:23,300 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-25 13:23:23,602 basehttp 124 "GET /image_codes/b239154a-44ac-4bde-95af-e04780d626ef/ HTTP/1.1" 200 3403
+INFO 2019-04-25 13:23:57,644 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:24:01,626 base 152 Not Found: /sms_codes/13838241861/
+WARNING 2019-04-25 13:24:01,629 basehttp 124 "GET /sms_codes/13838241861/?image_code=mBca&image_code_id=b239154a-44ac-4bde-95af-e04780d626ef HTTP/1.1" 404 3053
+INFO 2019-04-25 13:24:01,731 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:24:49,411 base 152 Not Found: /sms_codes/13838241861/
+WARNING 2019-04-25 13:24:49,411 basehttp 124 "GET /sms_codes/13838241861/?image_code=mBca&image_code_id=b239154a-44ac-4bde-95af-e04780d626ef HTTP/1.1" 404 3053
+INFO 2019-04-25 13:24:49,505 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:30:06,933 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:30:50,969 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:31:10,170 base 152 Not Found: /sms_codes/13838241861/
+WARNING 2019-04-25 13:31:10,173 basehttp 124 "GET /sms_codes/13838241861/?image_code=mBca&image_code_id=b239154a-44ac-4bde-95af-e04780d626ef HTTP/1.1" 404 3053
+INFO 2019-04-25 13:31:10,251 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:31:31,259 basehttp 124 "GET /image_codes/d44b2acf-ff3b-4fca-bfcd-73c24f742ed3/ HTTP/1.1" 200 2848
+WARNING 2019-04-25 13:31:44,036 base 152 Not Found: /sms_codes/13838241861/
+WARNING 2019-04-25 13:31:44,040 basehttp 124 "GET /sms_codes/13838241861/?image_code=qcjg&image_code_id=d44b2acf-ff3b-4fca-bfcd-73c24f742ed3 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:31:44,098 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:31:45,834 base 152 Not Found: /sms_codes/13838241861/
+WARNING 2019-04-25 13:31:45,934 basehttp 124 "GET /sms_codes/13838241861/?image_code=qcjg&image_code_id=d44b2acf-ff3b-4fca-bfcd-73c24f742ed3 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:31:46,032 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:31:47,291 base 152 Not Found: /sms_codes/13838241861/
+INFO 2019-04-25 13:31:47,293 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:31:47,298 basehttp 124 "GET /sms_codes/13838241861/?image_code=qcjg&image_code_id=d44b2acf-ff3b-4fca-bfcd-73c24f742ed3 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:31:47,486 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:31:47,501 base 152 Not Found: /sms_codes/13838241861/
+WARNING 2019-04-25 13:31:47,503 basehttp 124 "GET /sms_codes/13838241861/?image_code=qcjg&image_code_id=d44b2acf-ff3b-4fca-bfcd-73c24f742ed3 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:33:43,407 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 13:33:43,532 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-04-25 13:33:43,536 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-04-25 13:33:43,587 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-04-25 13:33:43,605 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-04-25 13:33:43,617 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-04-25 13:33:43,646 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2019-04-25 13:33:43,694 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2019-04-25 13:33:44,849 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-25 13:33:45,031 basehttp 124 "GET /image_codes/e2f6c7c3-90a5-47e2-9a82-bd5509e8c7bc/ HTTP/1.1" 200 3299
+INFO 2019-04-25 13:33:45,100 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-04-25 13:33:45,199 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-04-25 13:33:45,200 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-04-25 13:33:56,812 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:34:03,929 base 152 Not Found: /sms_codes/13123456781/
+WARNING 2019-04-25 13:34:03,933 basehttp 124 "GET /sms_codes/13123456781/?image_code=qywb&image_code_id=e2f6c7c3-90a5-47e2-9a82-bd5509e8c7bc HTTP/1.1" 404 3053
+INFO 2019-04-25 13:34:04,046 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:35:38,722 base 152 Not Found: /sms_codes/13123456781/
+WARNING 2019-04-25 13:35:38,723 basehttp 124 "GET /sms_codes/13123456781/?image_code=qywb&image_code_id=e2f6c7c3-90a5-47e2-9a82-bd5509e8c7bc HTTP/1.1" 404 3053
+INFO 2019-04-25 13:35:38,806 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:38:20,163 basehttp 124 "GET /image_codes/a4753241-b394-499b-8e5d-0ec93b929431/ HTTP/1.1" 200 3430
+WARNING 2019-04-25 13:38:26,805 base 152 Not Found: /sms_codes/13123456781/
+WARNING 2019-04-25 13:38:26,810 basehttp 124 "GET /sms_codes/13123456781/?image_code=qzek&image_code_id=a4753241-b394-499b-8e5d-0ec93b929431 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:38:26,883 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:38:28,823 base 152 Not Found: /sms_codes/13123456781/
+WARNING 2019-04-25 13:38:28,823 basehttp 124 "GET /sms_codes/13123456781/?image_code=qzek&image_code_id=a4753241-b394-499b-8e5d-0ec93b929431 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:38:28,926 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:40:32,417 base 152 Not Found: /sms_codes/13123456781/
+WARNING 2019-04-25 13:40:32,435 basehttp 124 "GET /sms_codes/13123456781/?image_code=qzek&image_code_id=a4753241-b394-499b-8e5d-0ec93b929431 HTTP/1.1" 404 3053
+INFO 2019-04-25 13:40:32,480 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:54:25,638 base 152 Not Found: /sms_codes/13123456781/
+WARNING 2019-04-25 13:54:25,669 basehttp 124 "GET /sms_codes/13123456781/?image_code=qzek&image_code_id=a4753241-b394-499b-8e5d-0ec93b929431 HTTP/1.1" 404 3056
+INFO 2019-04-25 13:54:25,830 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:54:26,845 basehttp 124 "GET /image_codes/64edac2f-fce9-44a9-8bc4-0f4f7a42f727/ HTTP/1.1" 200 3036
+WARNING 2019-04-25 13:54:35,364 base 152 Not Found: /sms_codes/13123456781/
+WARNING 2019-04-25 13:54:35,368 basehttp 124 "GET /sms_codes/13123456781/?image_code=ahze&image_code_id=64edac2f-fce9-44a9-8bc4-0f4f7a42f727 HTTP/1.1" 404 3056
+INFO 2019-04-25 13:54:35,467 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:55:20,687 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 13:55:20,790 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:55:20,802 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:55:20,838 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:55:20,849 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:55:20,859 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:55:20,868 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:55:20,886 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 13:55:21,166 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-25 13:55:21,322 basehttp 124 "GET /image_codes/63f7d96e-a5d6-4627-99b1-6e0d0a2dfde0/ HTTP/1.1" 200 3069
+INFO 2019-04-25 13:55:36,324 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:55:45,209 base 152 Not Found: /sms_codes/13123456781/
+WARNING 2019-04-25 13:55:45,211 basehttp 124 "GET /sms_codes/13123456781/?image_code=vh6w&image_code_id=63f7d96e-a5d6-4627-99b1-6e0d0a2dfde0 HTTP/1.1" 404 3058
+INFO 2019-04-25 13:55:45,333 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:58:03,747 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 13:58:03,821 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:03,829 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:03,844 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:03,870 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:03,878 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:03,882 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:03,909 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 13:58:04,216 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-25 13:58:04,401 basehttp 124 "GET /image_codes/a1689473-c1fc-484b-9062-e5b22829f6b7/ HTTP/1.1" 200 3425
+INFO 2019-04-25 13:58:11,981 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:58:19,396 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+WARNING 2019-04-25 13:58:19,437 base 152 Not Found: /sms_codes/13123456781/
+WARNING 2019-04-25 13:58:19,441 basehttp 124 "GET /sms_codes/13123456781/?image_code=tqd9&image_code_id=a1689473-c1fc-484b-9062-e5b22829f6b7 HTTP/1.1" 404 3059
+INFO 2019-04-25 13:58:45,436 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 13:58:45,628 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:45,632 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:45,635 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:45,654 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:45,670 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:45,679 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:58:45,705 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 13:58:46,038 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-25 13:58:46,418 basehttp 124 "GET /image_codes/2803b399-2cd1-42d5-bac7-439e25e07a3e/ HTTP/1.1" 200 3124
+INFO 2019-04-25 13:58:52,750 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+ERROR 2019-04-25 13:58:59,902 exception 135 Internal Server Error: /sms_codes/13123456781/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 49, in get
+    if redis_code_server.decdde() != image_code_request.upper():
+AttributeError: 'bytes' object has no attribute 'decdde'
+ERROR 2019-04-25 13:59:00,085 basehttp 124 "GET /sms_codes/13123456781/?image_code=zxbg&image_code_id=2803b399-2cd1-42d5-bac7-439e25e07a3e HTTP/1.1" 500 87456
+INFO 2019-04-25 13:59:00,118 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:59:30,958 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 13:59:31,097 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:59:31,111 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 13:59:31,242 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:59:31,251 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:59:31,260 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:59:31,258 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 13:59:31,295 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 13:59:34,579 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-25 13:59:35,909 basehttp 124 "GET /image_codes/26f27b06-115c-422d-a2d4-1682f407b0c4/ HTTP/1.1" 200 3110
+INFO 2019-04-25 13:59:40,357 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 13:59:45,809 basehttp 124 "GET /sms_codes/13123456781/?image_code=h3bl&image_code_id=26f27b06-115c-422d-a2d4-1682f407b0c4 HTTP/1.1" 200 29
+INFO 2019-04-25 13:59:45,959 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 14:00:14,465 basehttp 124 "GET /usernames/majian/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 14:00:48,659 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 14:00:48,667 basehttp 124 "GET /image_codes/6d6041a1-3e78-4671-b004-3a883b8b50b5/ HTTP/1.1" 200 3738
+INFO 2019-04-25 14:00:55,350 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 14:01:16,424 basehttp 124 "GET /sms_codes/13838241868/?image_code=5tkw&image_code_id=6d6041a1-3e78-4671-b004-3a883b8b50b5 HTTP/1.1" 200 29
+INFO 2019-04-25 14:02:02,481 basehttp 124 "GET /usernames/majian/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 14:02:02,526 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 16:35:50,347 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-25 16:35:50,421 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-25 16:35:50,427 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-25 16:35:50,431 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-25 16:35:50,458 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-25 16:35:50,480 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-25 16:35:50,495 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-25 16:35:50,524 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-25 16:35:51,008 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-25 16:35:51,282 basehttp 124 "GET /image_codes/05756039-bc26-4780-8b08-6be5920da9dd/ HTTP/1.1" 200 3340
+INFO 2019-04-25 16:36:18,296 basehttp 124 "GET /usernames/majian/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 16:36:39,052 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 16:36:43,035 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 16:37:02,861 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-25 16:37:04,863 basehttp 124 "GET /sms_codes/13838241868/?image_code=xle5&image_code_id=05756039-bc26-4780-8b08-6be5920da9dd HTTP/1.1" 200 29
+INFO 2019-04-26 01:05:42,287 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:05:42,340 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:05:42,472 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-04-26 01:05:42,492 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2019-04-26 01:05:42,513 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2019-04-26 01:05:42,817 basehttp 124 "GET /image_codes/c93b51c2-5eb9-4ea9-a156-d91cdf7810b6/ HTTP/1.1" 200 2969
+WARNING 2019-04-26 01:05:42,872 base 152 Not Found: /favicon.ico
+WARNING 2019-04-26 01:05:42,873 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2956
+INFO 2019-04-26 01:05:58,103 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:08:07,007 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:08:08,365 basehttp 124 "GET /image_codes/69831cd9-f698-45c5-b6e5-b5629060531f/ HTTP/1.1" 200 3189
+INFO 2019-04-26 01:08:14,237 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+WARNING 2019-04-26 01:08:30,290 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:08:35,385 basehttp 124 "GET /sms_codes/13838241868/?image_code=vpbv&image_code_id=69831cd9-f698-45c5-b6e5-b5629060531f HTTP/1.1" 200 29
+INFO 2019-04-26 01:08:44,972 basehttp 124 "GET /image_codes/379cd23c-a858-4747-aaf4-d6a2d026e679/ HTTP/1.1" 200 3229
+INFO 2019-04-26 01:08:47,470 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:08:47,564 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:08:47,570 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:08:47,581 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:08:47,603 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:08:47,612 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:08:47,629 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:08:47,654 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-26 01:08:47,921 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:08:48,103 basehttp 124 "GET /image_codes/865d94b0-c7d8-4979-a1dc-9ab82148be47/ HTTP/1.1" 200 3229
+INFO 2019-04-26 01:08:56,149 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:09:00,945 basehttp 124 "GET /image_codes/9888eec2-2fc7-4cf6-8cdb-6dc74e25c078/ HTTP/1.1" 200 3011
+INFO 2019-04-26 01:09:10,479 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:09:31,555 basehttp 124 "GET /sms_codes/13838241868/?image_code=nyyj&image_code_id=9888eec2-2fc7-4cf6-8cdb-6dc74e25c078 HTTP/1.1" 200 29
+INFO 2019-04-26 01:10:45,636 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:10:58,087 basehttp 124 "GET /image_codes/5677fe8f-439e-49e6-8252-d7abbb79f196/ HTTP/1.1" 200 3098
+INFO 2019-04-26 01:11:05,976 basehttp 124 "GET /image_codes/25694503-983c-4bcd-b398-a75fc26c2d94/ HTTP/1.1" 200 3355
+INFO 2019-04-26 01:11:11,759 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:11:32,887 basehttp 124 "GET /sms_codes/13838241868/?image_code=jbm3&image_code_id=25694503-983c-4bcd-b398-a75fc26c2d94 HTTP/1.1" 200 29
+INFO 2019-04-26 01:12:46,343 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:12:46,344 basehttp 124 "GET /sms_codes/13838241868/?image_code=jbm3&image_code_id=25694503-983c-4bcd-b398-a75fc26c2d94 HTTP/1.1" 200 72
+INFO 2019-04-26 01:12:46,383 basehttp 124 "GET /image_codes/edd34f41-7fc1-48d1-a31f-aa32de307c08/ HTTP/1.1" 200 3262
+INFO 2019-04-26 01:12:47,762 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:12:47,768 basehttp 124 "GET /sms_codes/13838241868/?image_code=jbm3&image_code_id=edd34f41-7fc1-48d1-a31f-aa32de307c08 HTTP/1.1" 200 72
+INFO 2019-04-26 01:12:47,809 basehttp 124 "GET /image_codes/d5e0b120-b2bd-40d9-bf52-fd62a4c0df05/ HTTP/1.1" 200 3563
+INFO 2019-04-26 01:12:58,526 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:13:19,598 basehttp 124 "GET /sms_codes/13838241868/?image_code=7shm&image_code_id=d5e0b120-b2bd-40d9-bf52-fd62a4c0df05 HTTP/1.1" 200 29
+INFO 2019-04-26 01:15:35,190 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:15:35,199 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:15:38,944 basehttp 124 "GET /image_codes/55f79432-d437-4861-866e-7455689ae98f/ HTTP/1.1" 200 3220
+INFO 2019-04-26 01:15:46,444 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:16:07,513 basehttp 124 "GET /sms_codes/13838241868/?image_code=cztr&image_code_id=55f79432-d437-4861-866e-7455689ae98f HTTP/1.1" 200 29
+INFO 2019-04-26 01:16:59,872 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:17:00,020 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-04-26 01:17:00,023 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-04-26 01:17:00,029 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-04-26 01:17:00,047 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-04-26 01:17:00,059 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-04-26 01:17:00,085 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2019-04-26 01:17:00,099 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-04-26 01:17:00,341 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-04-26 01:17:00,341 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-04-26 01:17:00,347 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2019-04-26 01:17:00,441 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:17:00,676 basehttp 124 "GET /image_codes/57182c4c-0af6-4169-848e-3f6ef5d0c3fb/ HTTP/1.1" 200 3172
+INFO 2019-04-26 01:17:13,252 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:17:16,761 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:17:37,812 basehttp 124 "GET /sms_codes/13838241868/?image_code=wsgw&image_code_id=57182c4c-0af6-4169-848e-3f6ef5d0c3fb HTTP/1.1" 200 29
+INFO 2019-04-26 01:18:30,163 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:18:30,250 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:18:30,257 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:18:30,261 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:18:30,300 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:18:30,313 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:18:30,317 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:18:30,332 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-26 01:18:30,533 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:18:30,791 basehttp 124 "GET /image_codes/02258d9e-dc2e-4d23-a871-b298d94ca439/ HTTP/1.1" 200 2942
+INFO 2019-04-26 01:18:35,624 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:18:44,404 basehttp 124 "GET /mobiles/13838241868/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:19:05,488 basehttp 124 "GET /sms_codes/13838241868/?image_code=mhrk&image_code_id=02258d9e-dc2e-4d23-a871-b298d94ca439 HTTP/1.1" 200 29
+INFO 2019-04-26 01:20:58,852 basehttp 124 "GET /mobiles/14123456789/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:20:58,914 basehttp 124 "GET /mobiles/14123456789/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:20:58,931 basehttp 124 "GET /sms_codes/14123456789/?image_code=mhrk&image_code_id=02258d9e-dc2e-4d23-a871-b298d94ca439 HTTP/1.1" 200 72
+INFO 2019-04-26 01:20:58,972 basehttp 124 "GET /image_codes/f05c4cdc-9531-46f2-b770-518efb86d98f/ HTTP/1.1" 200 3055
+INFO 2019-04-26 01:21:06,756 basehttp 124 "GET /mobiles/14123456789/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:21:06,762 basehttp 124 "GET /sms_codes/14123456789/?image_code=hot3&image_code_id=f05c4cdc-9531-46f2-b770-518efb86d98f HTTP/1.1" 200 29
+INFO 2019-04-26 01:21:12,555 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:21:12,644 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:12,650 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:12,658 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:12,689 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:12,697 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:12,703 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:12,720 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-26 01:21:12,907 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:21:13,124 basehttp 124 "GET /image_codes/e01ed48a-4f93-4d2a-ba10-34b050905869/ HTTP/1.1" 200 3154
+INFO 2019-04-26 01:21:19,261 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:21:25,196 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:21:31,421 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:21:31,426 basehttp 124 "GET /sms_codes/13838241861/?image_code=6bx3&image_code_id=e01ed48a-4f93-4d2a-ba10-34b050905869 HTTP/1.1" 200 29
+INFO 2019-04-26 01:21:35,949 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:21:36,020 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:36,033 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:36,054 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:36,083 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:36,093 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:36,099 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:21:36,124 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-26 01:21:36,319 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:21:36,502 basehttp 124 "GET /image_codes/63b63406-702f-4dae-b62e-fa733baa5476/ HTTP/1.1" 200 3475
+INFO 2019-04-26 01:21:41,368 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:21:45,617 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:21:45,625 basehttp 124 "GET /sms_codes/13838241861/?image_code=xmqo&image_code_id=63b63406-702f-4dae-b62e-fa733baa5476 HTTP/1.1" 200 29
+INFO 2019-04-26 01:22:31,203 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:22:31,277 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:31,281 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:31,287 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:31,317 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:31,327 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:31,335 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:31,360 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-26 01:22:31,556 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:22:31,759 basehttp 124 "GET /image_codes/06eb5ffd-c624-473c-8c7f-43bd86b2c92c/ HTTP/1.1" 200 3935
+INFO 2019-04-26 01:22:38,986 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:22:44,794 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:22:44,802 basehttp 124 "GET /sms_codes/13838241861/?image_code=hvao&image_code_id=06eb5ffd-c624-473c-8c7f-43bd86b2c92c HTTP/1.1" 200 72
+INFO 2019-04-26 01:22:44,860 basehttp 124 "GET /image_codes/2f795879-3c06-4e2b-8f4a-0db7830edef6/ HTTP/1.1" 200 3277
+INFO 2019-04-26 01:22:46,493 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:22:46,498 basehttp 124 "GET /sms_codes/13838241861/?image_code=hvao&image_code_id=2f795879-3c06-4e2b-8f4a-0db7830edef6 HTTP/1.1" 200 72
+INFO 2019-04-26 01:22:46,538 basehttp 124 "GET /image_codes/83016109-bdbf-4505-95d6-b409a2bb73c8/ HTTP/1.1" 200 3083
+INFO 2019-04-26 01:22:52,986 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:22:53,000 basehttp 124 "GET /sms_codes/13838241861/?image_code=mbza&image_code_id=83016109-bdbf-4505-95d6-b409a2bb73c8 HTTP/1.1" 200 29
+INFO 2019-04-26 01:22:56,532 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:22:56,602 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:56,608 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:56,653 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:56,666 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:56,669 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:56,672 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:22:56,698 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-26 01:22:56,940 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:22:57,210 basehttp 124 "GET /image_codes/2ed8b00a-7227-4cfd-ad3b-c45d7a51ac34/ HTTP/1.1" 200 3260
+INFO 2019-04-26 01:23:04,868 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:23:11,983 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:23:11,991 basehttp 124 "GET /sms_codes/13838241861/?image_code=npqa&image_code_id=2ed8b00a-7227-4cfd-ad3b-c45d7a51ac34 HTTP/1.1" 200 29
+INFO 2019-04-26 01:24:06,580 basehttp 124 "GET /image_codes/f58ebf16-b78a-497b-bf8d-fc43ad4aed55/ HTTP/1.1" 200 3280
+INFO 2019-04-26 01:24:12,751 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:24:14,881 basehttp 124 "GET /image_codes/db80aa89-92cc-4417-8af3-4f2e5280e0e5/ HTTP/1.1" 200 3395
+INFO 2019-04-26 01:24:20,968 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:24:20,974 basehttp 124 "GET /sms_codes/13838241861/?image_code=qdfy&image_code_id=db80aa89-92cc-4417-8af3-4f2e5280e0e5 HTTP/1.1" 200 29
+INFO 2019-04-26 01:24:23,717 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:24:23,804 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:24:23,813 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-04-26 01:24:23,821 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:24:23,853 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:24:23,856 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:24:23,863 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-26 01:24:23,881 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-04-26 01:24:24,109 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:24:24,352 basehttp 124 "GET /image_codes/d3eb8c05-f513-4429-b7df-d9c2f461999a/ HTTP/1.1" 200 3337
+INFO 2019-04-26 01:24:28,643 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:24:37,190 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:24:37,196 basehttp 124 "GET /sms_codes/13838241861/?image_code=kgmq&image_code_id=d3eb8c05-f513-4429-b7df-d9c2f461999a HTTP/1.1" 200 72
+INFO 2019-04-26 01:24:37,238 basehttp 124 "GET /image_codes/94f348e0-875e-4462-9aeb-fbf0ac9d0d31/ HTTP/1.1" 200 3494
+INFO 2019-04-26 01:24:45,111 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:24:45,117 basehttp 124 "GET /sms_codes/13838241861/?image_code=8jqr&image_code_id=94f348e0-875e-4462-9aeb-fbf0ac9d0d31 HTTP/1.1" 200 72
+INFO 2019-04-26 01:24:45,153 basehttp 124 "GET /image_codes/8ec48329-ad10-4f16-9c92-fc773da7d5e3/ HTTP/1.1" 200 3284
+INFO 2019-04-26 01:24:53,255 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:24:53,261 basehttp 124 "GET /sms_codes/13838241861/?image_code=vnbh&image_code_id=8ec48329-ad10-4f16-9c92-fc773da7d5e3 HTTP/1.1" 200 72
+INFO 2019-04-26 01:24:53,308 basehttp 124 "GET /image_codes/41b3a3b3-5964-4d59-91f0-de3b06d8eba2/ HTTP/1.1" 200 2860
+INFO 2019-04-26 01:24:56,141 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:24:56,147 basehttp 124 "GET /sms_codes/13838241861/?image_code=vnbh&image_code_id=41b3a3b3-5964-4d59-91f0-de3b06d8eba2 HTTP/1.1" 200 72
+INFO 2019-04-26 01:24:56,201 basehttp 124 "GET /image_codes/4b22c753-3203-4b04-af71-9fafcd92d289/ HTTP/1.1" 200 3521
+INFO 2019-04-26 01:25:01,622 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:25:01,629 basehttp 124 "GET /sms_codes/13838241861/?image_code=wxvs&image_code_id=4b22c753-3203-4b04-af71-9fafcd92d289 HTTP/1.1" 200 72
+INFO 2019-04-26 01:25:01,674 basehttp 124 "GET /image_codes/b0cae795-b82c-4ef6-85a8-068839189304/ HTTP/1.1" 200 2926
+INFO 2019-04-26 01:25:23,390 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:25:37,955 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:25:38,042 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:25:38,050 basehttp 124 "GET /sms_codes/13838241861/?image_code=wxvs&image_code_id=b0cae795-b82c-4ef6-85a8-068839189304 HTTP/1.1" 200 72
+INFO 2019-04-26 01:25:38,085 basehttp 124 "GET /image_codes/84ce6f9f-c8fe-4fe6-9c51-e86bfd5fe5e7/ HTTP/1.1" 200 3640
+INFO 2019-04-26 01:25:44,815 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:25:44,822 basehttp 124 "GET /sms_codes/13838241861/?image_code=ccno&image_code_id=84ce6f9f-c8fe-4fe6-9c51-e86bfd5fe5e7 HTTP/1.1" 200 29
+INFO 2019-04-26 01:25:56,482 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:25:56,502 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+ERROR 2019-04-26 01:25:56,546 exception 135 Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 51, in post
+    if sms_code != redis_server.decode():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-04-26 01:25:56,741 basehttp 124 "POST /register HTTP/1.1" 500 88051
+ERROR 2019-04-26 01:30:06,263 exception 135 Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 48, in post
+    print(redis_server_m+'redis')
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+ERROR 2019-04-26 01:30:06,377 basehttp 124 "POST /register HTTP/1.1" 500 88057
+ERROR 2019-04-26 01:30:46,643 exception 135 Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 48, in post
+    print(redis_server_m+'redis')
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+ERROR 2019-04-26 01:30:46,755 basehttp 124 "POST /register HTTP/1.1" 500 88062
+WARNING 2019-04-26 01:33:00,909 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:33:01,142 basehttp 124 "GET /image_codes/c1e77b20-260b-4a7d-888c-fec6014b688b/ HTTP/1.1" 200 2493
+INFO 2019-04-26 01:33:10,472 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:33:28,533 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:33:29,232 basehttp 124 "GET /image_codes/b5593c58-a1fc-455c-93cd-038307f756bc/ HTTP/1.1" 200 3318
+INFO 2019-04-26 01:33:35,004 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:33:35,009 basehttp 124 "GET /sms_codes/13123456781/?image_code=z8tu&image_code_id=b5593c58-a1fc-455c-93cd-038307f756bc HTTP/1.1" 200 29
+INFO 2019-04-26 01:33:49,912 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:33:49,924 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+ERROR 2019-04-26 01:33:49,969 exception 135 Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 48, in post
+    print(redis_server_m+'redis')
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+ERROR 2019-04-26 01:33:50,090 basehttp 124 "POST /register HTTP/1.1" 500 88068
+WARNING 2019-04-26 01:36:48,128 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-26 01:36:48,357 basehttp 124 "GET /image_codes/8cb51e77-5530-479c-9f25-33c67557dba3/ HTTP/1.1" 200 3353
+INFO 2019-04-26 01:36:59,917 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:37:31,146 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:37:32,142 basehttp 124 "GET /image_codes/6b12312f-434b-4b23-bf15-17857cf3a46f/ HTTP/1.1" 200 3135
+INFO 2019-04-26 01:37:39,056 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:37:39,067 basehttp 124 "GET /sms_codes/13123456781/?image_code=wfma&image_code_id=6b12312f-434b-4b23-bf15-17857cf3a46f HTTP/1.1" 200 29
+INFO 2019-04-26 01:37:53,818 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:37:53,831 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+ERROR 2019-04-26 01:37:53,854 exception 135 Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 48, in post
+    print(redis_server_m+'redis')
+TypeError: can't concat bytes to str
+ERROR 2019-04-26 01:37:53,936 basehttp 124 "POST /register HTTP/1.1" 500 87909
+INFO 2019-04-26 01:38:51,030 basehttp 124 "GET /image_codes/e08d7394-613e-4b80-93e6-5dc1ce987339/ HTTP/1.1" 200 3257
+INFO 2019-04-26 01:38:53,542 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:39:06,320 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:39:06,855 basehttp 124 "GET /image_codes/bb31fc85-c1ef-47cf-8585-f7db7eba9da5/ HTTP/1.1" 200 3044
+INFO 2019-04-26 01:39:11,022 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:39:11,030 basehttp 124 "GET /sms_codes/13123456781/?image_code=ntzw&image_code_id=bb31fc85-c1ef-47cf-8585-f7db7eba9da5 HTTP/1.1" 200 29
+INFO 2019-04-26 01:39:28,059 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:39:28,076 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+WARNING 2019-04-26 01:39:28,104 basehttp 124 "POST /register HTTP/1.1" 400 18
+INFO 2019-04-26 01:39:38,007 basehttp 124 "GET /image_codes/c89eef38-3153-4b46-ae2d-8d17e82deea9/ HTTP/1.1" 200 3017
+INFO 2019-04-26 01:39:40,773 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:39:50,777 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:39:53,103 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:39:54,151 basehttp 124 "GET /image_codes/43d2b8d5-d60a-44e4-9f58-92f4bd9c454f/ HTTP/1.1" 200 3862
+INFO 2019-04-26 01:39:59,029 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:39:59,032 basehttp 124 "GET /sms_codes/13838241861/?image_code=fuwg&image_code_id=43d2b8d5-d60a-44e4-9f58-92f4bd9c454f HTTP/1.1" 200 29
+INFO 2019-04-26 01:40:23,141 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:40:23,154 basehttp 124 "GET /mobiles/13838241861/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 01:40:23,509 basehttp 124 "POST /register HTTP/1.1" 200 33
+INFO 2019-04-26 01:40:37,060 basehttp 124 "GET /register HTTP/1.1" 200 4690
+INFO 2019-04-26 01:40:37,320 basehttp 124 "GET /image_codes/efd5da84-d028-48e5-8ba1-92bd19f8c5e1/ HTTP/1.1" 200 3539
+INFO 2019-04-26 03:18:39,342 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 03:18:40,582 basehttp 124 "GET /image_codes/ad928440-ce13-4f6e-a711-5251ea1fef4e/ HTTP/1.1" 200 3467
+INFO 2019-04-26 03:18:46,615 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 03:18:46,623 basehttp 124 "GET /sms_codes/13123456781/?image_code=ebsx&image_code_id=ad928440-ce13-4f6e-a711-5251ea1fef4e HTTP/1.1" 200 72
+INFO 2019-04-26 03:18:46,674 basehttp 124 "GET /image_codes/1c2a4672-cf9b-411f-bac9-c879d3d58a40/ HTTP/1.1" 200 3502
+INFO 2019-04-26 03:18:54,507 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 03:18:54,613 basehttp 124 "GET /sms_codes/13123456781/?image_code=r3ve&image_code_id=1c2a4672-cf9b-411f-bac9-c879d3d58a40 HTTP/1.1" 200 29
+INFO 2019-04-26 03:19:22,901 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 03:19:25,918 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 03:19:31,804 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 03:19:32,042 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
+INFO 2019-04-26 03:19:32,244 basehttp 124 "GET /mobiles/13123456781/count/ HTTP/1.1" 200 12
