@@ -170,7 +170,7 @@ var vm = new Vue({
                 return;
             }
 
-            // 向后端接口发送请求，让后端发送短信验证码
+            // 向后端接口发送请求，让端发后送短信验证码
             var url = this.host + '/sms_codes/' + this.mobile + '/?image_code=' + this.image_code + '&image_code_id=' + this.image_code_id;
             axios.get(url, {
                 responseType: 'json'

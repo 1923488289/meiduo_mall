@@ -11,7 +11,8 @@ from . import constants
 from meiduo_mall.libs.yuntongxun.sms import CCP
 from celery_tasks.sms.tasks import send_tasks
 
-# uuid 唯一识别码
+
+# uuid 唯一识别码 /images_code
 class ImageView(View):
     def get(self, request, uuid):
         # 随机字符串  验证码 图片
@@ -22,7 +23,7 @@ class ImageView(View):
         # 响应数据格式。
         return http.HttpResponse(image, content_type='image/png')
 
-
+#短信验证方式 /sms_codes
 class SMSCodeView(View):
     def get(self, request, mobile):
         print(mobile)
@@ -34,7 +35,7 @@ class SMSCodeView(View):
         if not all([image_code_request, uuid]):
             return http.JsonResponse({
                 'code': RETCODE.NECESSARYPARAMERR,
-                'errmsg': '比要参数'
+                'errmsg': '没有必要参数'
             })
         # 获取链接对象
         redis_server = get_redis_connection('verificat_code')
@@ -50,31 +51,32 @@ class SMSCodeView(View):
             return http.JsonResponse(
                 {
                     'code': RETCODE.IMAGECODEERR,
-                    'errmsg': '图形验证码错误'
+                    'errmsg': '图片验证码错误'
                 }
             )
         # t图片验证码过期
         redis_server.delete(uuid)
         #
-        if redis_server.get('sms_s_'+mobile):
+        if redis_server.get('sms_s_' + mobile):
             return http.JsonResponse(
-                {'code':RETCODE.SMSCODERR,
-                 'errmsg':'发短喜过于频繁'}
+                {'code': RETCODE.SMSCODERR,
+                 'errmsg': '发短信过于频繁'}
 
             )
 
         sms_code = '%06d' % random.randint(0, 999999)
-        print('这是sms'+sms_code)
+        print('这是sms' + sms_code)
         # redis_server.setex('sms_' + mobile, constants.TMAGE_CODE_SMS, sms_code)
         # redis_server.setex('sms_s_' + mobile, constants.TMAGE_CODE_SMS_BF, 1)
-        #优化redis
-        redis_server_yh=redis_server.pipeline()
+        # 优化redis
+        redis_server_yh = redis_server.pipeline()
         redis_server_yh.setex('sms_' + mobile, constants.TMAGE_CODE_SMS, sms_code)
-        #是否在60秒内发送过短信
+        # 是否在60秒内发送过短信
         redis_server_yh.setex('sms_s_' + mobile, constants.TMAGE_CODE_SMS_BF, 1)
         redis_server_yh.execute()
-        #celery
-        send_tasks.delay(mobile,[sms_code, constants.TMAGE_CODE_SMS / 60], 1)
+        # celery
+        # 手机号 参数，时间  模板
+        send_tasks.delay(mobile, [sms_code, constants.TMAGE_CODE_SMS / 60], 1)
         # print(sms_code)
         # ccp = CCP()
         # ccp.send_template_sms(mobile, [sms_code, constants.TMAGE_CODE_SMS / 60], 1)

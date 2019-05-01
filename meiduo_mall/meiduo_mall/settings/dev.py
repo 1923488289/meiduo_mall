@@ -28,7 +28,7 @@ SECRET_KEY = 'u68wcc3mfm%ox*#*x^de4u+c1$lu$y30i1gq5g7og#p_3ila_6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.meiduo.site', ]
 
 # Application definition
 
@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
+    'contents.apps.ContentsConfig',
+    'auoth.apps.AuothConfig',
+    'areas.apps.AreasConfig'
 ]
 
 MIDDLEWARE = [
@@ -211,6 +214,25 @@ LOGGING = {
     }
 }
 
-# 认证系统的用户模型类是通过该决定的
+# 指定用户类型
 AUTH_USER_MODEL = 'users.User'
+# 指定认证后端
 AUTHENTICATION_BACKENDS = ['meiduo_mall.utils.auth_backend.Meiduobackend']
+# 指定用户如果不在登录状态
+LOGIN_URL = '/login/'
+# qq认证信息
+QQ_CLIENT_ID = '101518219'
+QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
+QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  # 指定邮件后端
+EMAIL_HOST = 'smtp.163.com'  # 发邮件主机
+EMAIL_PORT = 25  # 发邮件端口
+# EMAIL_HOST_USER = 'pythonplus@163.com'  # 授权的邮箱
+# EMAIL_HOST_PASSWORD = 'mjihsm1314'  # 邮箱授权时获得的密码，非注册登录密码
+# EMAIL_HOST_USER = '1923488289@qq.com'  # 授权的邮箱
+# # EMAIL_HOST_PASSWORD = 'bjldzayedrgnfaae'  # 邮箱授权时获得的密码，非注册登录密码
+EMAIL_HOST_USER = 'hmmeiduo@163.com' # 授权的邮箱
+EMAIL_HOST_PASSWORD = 'hmmeiduo123' # 邮箱授权时获得的密码，非注册登录密码
+EMAIL_FROM = '美多商城<hmmeiduo@163.com>'  # 发件人抬头
+EMAIL_ACTIVE_URL = 'http://www.meiduo.site:8000/emails/verification/'  # 激活路径
