@@ -9942,3 +9942,1452 @@ INFO 2019-05-01 09:18:40,027 basehttp 124 "GET /static/images/edit.png HTTP/1.1"
 INFO 2019-05-01 09:18:40,479 basehttp 124 "GET /areas/ HTTP/1.1" 200 52
 INFO 2019-05-01 09:18:50,239 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
 INFO 2019-05-01 09:18:50,551 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-01 14:44:22,413 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-01 14:44:22,649 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-01 14:44:22,652 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-01 14:44:22,657 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:44:22,721 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:44:22,734 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:44:22,736 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:44:22,737 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:44:22,741 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-01 14:44:23,773 basehttp 124 "GET /areas/ HTTP/1.1" 200 52
+INFO 2019-05-01 14:47:14,233 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-01 14:47:14,294 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-01 14:47:14,296 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-01 14:47:14,299 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:47:14,301 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:47:14,324 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:47:14,590 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-01 14:47:14,595 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:47:14,614 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:47:14,886 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-01 14:47:28,655 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-01 14:47:33,664 basehttp 124 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2019-05-01 14:47:36,479 basehttp 124 "GET /areas/?area_id=220000 HTTP/1.1" 200 541
+INFO 2019-05-01 14:47:38,691 basehttp 124 "GET /areas/?area_id=220100 HTTP/1.1" 200 557
+INFO 2019-05-01 14:48:20,577 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 338
+INFO 2019-05-01 14:48:25,837 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-01 14:48:25,870 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-01 14:48:25,872 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-01 14:48:25,873 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:48:25,876 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:48:25,879 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:48:25,894 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-01 14:48:25,909 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:48:25,911 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-01 14:48:26,108 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-01 14:48:41,676 basehttp 124 "GET /areas/?area_id=150000 HTTP/1.1" 200 745
+INFO 2019-05-01 14:48:43,167 basehttp 124 "GET /areas/?area_id=150100 HTTP/1.1" 200 559
+INFO 2019-05-01 14:49:06,663 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 368
+INFO 2019-05-01 15:33:37,962 basehttp 124 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2019-05-01 15:33:45,845 basehttp 124 "GET /areas/?area_id=220000 HTTP/1.1" 200 541
+INFO 2019-05-01 15:33:47,416 basehttp 124 "GET /areas/?area_id=220300 HTTP/1.1" 200 403
+INFO 2019-05-01 15:37:03,924 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-01 15:37:05,321 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2019-05-01 15:38:17,870 basehttp 124 "GET /areas/?area_id=130000 HTTP/1.1" 200 703
+INFO 2019-05-01 15:38:19,410 basehttp 124 "GET /areas/?area_id=130200 HTTP/1.1" 200 741
+INFO 2019-05-01 15:42:52,870 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 338
+INFO 2019-05-02 07:07:57,795 basehttp 124 "GET / HTTP/1.1" 200 25118
+INFO 2019-05-02 07:07:57,935 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2019-05-02 07:07:59,293 base 152 Not Found: /carts/simple/
+WARNING 2019-05-02 07:07:59,295 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4721
+WARNING 2019-05-02 07:07:59,539 base 152 Not Found: /favicon.ico
+WARNING 2019-05-02 07:07:59,540 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4715
+INFO 2019-05-02 09:12:31,518 basehttp 124 "GET /info/ HTTP/1.1" 200 7848
+INFO 2019-05-02 09:12:31,540 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,547 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,562 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,604 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,607 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,639 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,658 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,662 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,667 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,669 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,791 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,812 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,817 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,826 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:12:31,828 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 304 0
+WARNING 2019-05-02 09:12:32,006 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 09:12:32,008 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4733
+INFO 2019-05-02 09:12:39,974 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+ERROR 2019-05-02 09:12:40,312 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:12:40,588 basehttp 124 "GET /areas/ HTTP/1.1" 500 86501
+INFO 2019-05-02 09:12:41,231 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+ERROR 2019-05-02 09:12:41,433 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:12:41,547 basehttp 124 "GET /areas/ HTTP/1.1" 500 86501
+INFO 2019-05-02 09:12:42,602 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+ERROR 2019-05-02 09:12:42,740 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:12:42,884 basehttp 124 "GET /areas/ HTTP/1.1" 500 86501
+INFO 2019-05-02 09:12:43,798 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+ERROR 2019-05-02 09:12:43,977 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:12:44,121 basehttp 124 "GET /areas/ HTTP/1.1" 500 86501
+INFO 2019-05-02 09:14:28,562 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 09:14:28,592 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:28,593 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:28,596 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:28,598 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:28,602 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:28,611 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:28,620 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:28,637 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 09:14:28,856 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:14:28,980 basehttp 124 "GET /areas/ HTTP/1.1" 500 86636
+INFO 2019-05-02 09:14:30,406 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 09:14:30,431 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:30,434 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:30,441 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:30,455 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:30,458 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:30,474 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:30,478 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:30,492 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 09:14:30,664 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:14:30,775 basehttp 124 "GET /areas/ HTTP/1.1" 500 86636
+INFO 2019-05-02 09:14:47,141 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 09:14:47,172 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:47,193 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:47,198 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:47,215 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:47,223 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:47,255 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:47,257 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:14:47,260 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 09:14:47,604 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:14:47,942 basehttp 124 "GET /areas/ HTTP/1.1" 500 86636
+INFO 2019-05-02 09:15:39,097 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 09:15:39,120 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:15:39,132 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:15:39,136 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:15:39,163 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:15:39,167 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:15:39,172 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:15:39,173 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:15:39,215 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 09:15:39,458 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:15:39,574 basehttp 124 "GET /areas/ HTTP/1.1" 500 86636
+INFO 2019-05-02 09:17:03,253 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 09:17:03,293 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:03,313 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:03,318 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:03,322 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:03,329 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:03,340 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:03,343 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:03,358 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 09:17:03,623 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:17:03,719 basehttp 124 "GET /areas/ HTTP/1.1" 500 86636
+INFO 2019-05-02 09:17:57,522 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 09:17:57,544 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:57,548 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:57,552 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:57,560 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:57,584 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:57,595 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:57,603 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 09:17:57,606 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 09:17:57,768 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 09:17:57,950 basehttp 124 "GET /areas/ HTTP/1.1" 500 86636
+INFO 2019-05-02 10:32:57,565 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 10:32:57,643 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:32:57,649 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:32:57,656 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:32:57,662 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:32:57,684 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:32:57,700 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:32:57,703 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:32:57,733 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 10:32:57,983 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----' + area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 10:32:58,243 basehttp 124 "GET /areas/ HTTP/1.1" 500 86641
+INFO 2019-05-02 10:34:18,543 basehttp 124 "GET /info/ HTTP/1.1" 200 7848
+WARNING 2019-05-02 10:34:18,800 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 10:34:18,803 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4733
+INFO 2019-05-02 10:34:20,579 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+ERROR 2019-05-02 10:34:20,852 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----' + area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 10:34:20,966 basehttp 124 "GET /areas/ HTTP/1.1" 500 86506
+INFO 2019-05-02 10:34:25,669 basehttp 124 "GET /info/ HTTP/1.1" 200 7848
+WARNING 2019-05-02 10:34:25,876 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 10:34:25,879 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4733
+INFO 2019-05-02 10:34:26,933 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+ERROR 2019-05-02 10:34:27,106 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----' + area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 10:34:27,280 basehttp 124 "GET /areas/ HTTP/1.1" 500 86506
+INFO 2019-05-02 10:37:28,397 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 10:37:28,428 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:37:28,444 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:37:28,448 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:37:28,452 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:37:28,459 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:37:28,473 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:37:28,475 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:37:28,485 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 10:37:28,667 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----' + area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 10:37:28,774 basehttp 124 "GET /areas/ HTTP/1.1" 500 86641
+INFO 2019-05-02 10:40:24,954 basehttp 124 "GET /info/ HTTP/1.1" 200 7848
+WARNING 2019-05-02 10:40:25,213 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 10:40:25,216 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4733
+INFO 2019-05-02 10:47:20,104 basehttp 124 "GET /info/ HTTP/1.1" 200 7848
+INFO 2019-05-02 10:47:20,134 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,141 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,146 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,384 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,387 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,386 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,397 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,403 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,415 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,419 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,444 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,454 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 10:47:20,456 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+WARNING 2019-05-02 10:47:20,632 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 10:47:20,633 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4566
+INFO 2019-05-02 10:47:22,690 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+ERROR 2019-05-02 10:47:22,910 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----' + area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 10:47:23,023 basehttp 124 "GET /areas/ HTTP/1.1" 500 86506
+INFO 2019-05-02 10:53:56,097 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 10:53:56,136 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:53:56,146 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:53:56,149 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:53:56,168 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:53:56,179 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:53:56,184 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:53:56,191 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:53:56,204 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 10:53:56,444 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----' + area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 10:53:56,594 basehttp 124 "GET /areas/ HTTP/1.1" 500 86641
+INFO 2019-05-02 10:54:34,082 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 10:54:34,101 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:54:34,105 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 10:54:34,129 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:54:34,135 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:54:34,138 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:54:34,140 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:54:34,141 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 10:54:34,160 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+ERROR 2019-05-02 10:54:34,402 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----' + area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 10:54:34,742 basehttp 124 "GET /areas/ HTTP/1.1" 500 86641
+INFO 2019-05-02 13:32:32,056 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-05-02 13:32:32,165 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 3605
+INFO 2019-05-02 13:32:32,245 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-05-02 13:32:32,245 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-05-02 13:32:32,266 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-05-02 13:32:32,277 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-05-02 13:32:32,281 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-05-02 13:32:32,290 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-05-02 13:32:32,312 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2019-05-02 13:32:32,341 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-05-02 13:32:32,566 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-05-02 13:32:32,577 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-05-02 13:32:32,601 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-05-02 13:32:49,325 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2019-05-02 13:32:49,486 basehttp 124 "GET /info/ HTTP/1.1" 200 7849
+INFO 2019-05-02 13:32:49,585 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-05-02 13:32:49,592 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2019-05-02 13:32:49,607 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-05-02 13:32:49,627 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-05-02 13:32:49,644 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-05-02 13:32:49,690 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2019-05-02 13:32:49,714 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+WARNING 2019-05-02 13:32:50,231 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 13:32:50,246 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4566
+INFO 2019-05-02 13:32:50,232 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-05-02 13:32:50,249 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-05-02 13:32:50,280 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2019-05-02 13:33:02,992 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-02 13:33:03,002 basehttp 124 "GET /login/ HTTP/1.1" 200 3605
+INFO 2019-05-02 13:33:12,644 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-02 13:33:12,693 basehttp 124 "GET / HTTP/1.1" 200 25118
+INFO 2019-05-02 13:33:12,804 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-05-02 13:33:12,811 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-05-02 13:33:12,818 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-05-02 13:33:12,837 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-05-02 13:33:12,854 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-05-02 13:33:12,893 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-05-02 13:33:12,925 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-05-02 13:33:12,933 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1418
+INFO 2019-05-02 13:33:13,065 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-05-02 13:33:13,076 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2019-05-02 13:33:13,108 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-05-02 13:33:13,151 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-05-02 13:33:13,165 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-05-02 13:33:13,165 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-05-02 13:33:13,174 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+WARNING 2019-05-02 13:33:13,981 base 152 Not Found: /carts/simple/
+WARNING 2019-05-02 13:33:13,987 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4554
+INFO 2019-05-02 13:33:19,247 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-02 13:33:19,254 basehttp 124 "GET /login/ HTTP/1.1" 200 3605
+INFO 2019-05-02 13:33:22,640 basehttp 124 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2019-05-02 13:33:33,758 basehttp 124 "GET /oauth_callback?code=1DD500AEF75B18D67C1D33A1B5CBC3ED&state=%2F HTTP/1.1" 301 0
+INFO 2019-05-02 13:33:35,158 basehttp 124 "GET /oauth_callback/?code=1DD500AEF75B18D67C1D33A1B5CBC3ED&state=%2F HTTP/1.1" 302 0
+INFO 2019-05-02 13:33:35,167 basehttp 124 "GET / HTTP/1.1" 200 25118
+WARNING 2019-05-02 13:33:36,066 base 152 Not Found: /carts/simple/
+WARNING 2019-05-02 13:33:36,067 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4554
+INFO 2019-05-02 13:33:39,775 basehttp 124 "GET /info/ HTTP/1.1" 200 7849
+WARNING 2019-05-02 13:33:40,506 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 13:33:40,510 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4566
+INFO 2019-05-02 13:33:44,054 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-02 13:33:44,162 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 13616
+INFO 2019-05-02 13:33:44,286 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+ERROR 2019-05-02 13:33:44,665 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----' + area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 13:33:44,963 basehttp 124 "GET /areas/ HTTP/1.1" 500 86343
+WARNING 2019-05-02 16:12:58,529 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:16:58,561 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-02 16:16:58,613 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:16:58,620 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:16:58,644 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:16:58,648 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:16:58,651 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:16:58,654 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:16:58,657 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:16:58,688 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 16:16:58,830 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+ERROR 2019-05-02 16:16:59,091 exception 135 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 13, in get
+    print('-----'+area_id)
+TypeError: Can't convert 'NoneType' object to str implicitly
+ERROR 2019-05-02 16:16:59,286 basehttp 124 "GET /areas/ HTTP/1.1" 500 86473
+INFO 2019-05-02 16:25:39,200 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-02 16:25:39,315 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:25:39,318 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:25:39,327 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:25:39,393 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:25:39,395 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:25:39,406 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:25:39,471 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:25:39,730 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 16:25:42,581 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:25:43,587 basehttp 124 "GET /areas/ HTTP/1.1" 200 52
+INFO 2019-05-02 16:32:10,455 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-02 16:32:10,531 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:32:10,539 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:32:10,579 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:32:10,592 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:32:10,601 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:32:10,618 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:32:10,620 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:32:10,651 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 16:32:11,272 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:32:11,980 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:32:50,352 basehttp 124 "GET /areas/?area_id=130000 HTTP/1.1" 200 703
+INFO 2019-05-02 16:32:51,965 basehttp 124 "GET /areas/?area_id=130200 HTTP/1.1" 200 741
+INFO 2019-05-02 16:33:06,023 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-02 16:33:06,067 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:33:06,071 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:33:06,079 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:33:06,086 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:33:06,100 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:33:06,107 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:33:06,121 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:33:06,125 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 16:33:06,302 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:33:19,462 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-02 16:33:20,572 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+WARNING 2019-05-02 16:33:52,069 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:52,078 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:53,685 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:53,689 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:56,060 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:56,061 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:56,280 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:56,282 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:56,492 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:56,494 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:56,709 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:56,711 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:56,930 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:56,934 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:57,188 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:57,192 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:57,408 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:57,409 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:57,854 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:57,858 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:33:58,082 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:33:58,088 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:34:46,019 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:34:46,020 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:34:46,611 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:34:46,612 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+WARNING 2019-05-02 16:34:50,649 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+WARNING 2019-05-02 16:35:11,780 base 152 Not Found: /addresses/create/
+WARNING 2019-05-02 16:35:11,782 basehttp 124 "POST /addresses/create/ HTTP/1.1" 404 4567
+INFO 2019-05-02 16:35:55,806 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-02 16:35:55,894 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:35:55,897 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:35:55,900 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:35:55,925 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:35:55,932 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:35:55,943 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:35:55,947 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:35:55,965 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 16:35:56,166 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:35:56,497 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:36:00,340 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-02 16:36:00,421 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:00,424 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:00,431 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:00,457 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:00,464 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:00,470 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:00,473 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:00,504 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 16:36:00,765 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:36:01,102 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:36:03,194 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8337
+INFO 2019-05-02 16:36:03,291 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:03,297 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:03,301 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:03,326 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:03,341 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:03,349 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:03,352 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:03,374 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 16:36:03,700 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:36:04,115 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:36:24,017 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-02 16:36:25,169 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2019-05-02 16:36:45,170 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 347
+INFO 2019-05-02 16:36:48,141 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 16:36:48,174 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:48,179 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:48,182 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:48,186 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:48,188 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:48,193 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:48,200 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:48,203 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 16:36:48,414 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:43:39,458 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 16:43:39,492 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:39,519 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:39,522 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:39,525 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:39,531 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:39,535 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:39,537 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:39,541 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:39,711 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:43:41,444 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 16:43:41,473 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:41,476 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:41,478 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:41,494 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:41,522 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:41,532 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:41,534 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:41,537 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 16:43:41,662 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:43:47,515 basehttp 124 "GET /info/ HTTP/1.1" 200 7849
+WARNING 2019-05-02 16:43:47,667 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 16:43:47,670 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4733
+INFO 2019-05-02 16:43:49,174 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 16:43:49,348 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:44:36,416 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 16:44:36,449 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:36,451 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:36,454 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:36,459 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:36,464 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:36,481 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:36,484 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:36,495 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:36,640 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:44:37,670 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 16:44:37,699 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:37,721 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:37,727 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:37,731 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:37,737 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:37,751 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:37,753 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:37,756 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:37,911 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-02 16:44:46,794 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:44:50,630 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 16:44:50,683 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:50,731 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:50,734 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:50,736 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:50,737 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:50,743 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:50,744 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:44:50,748 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 16:44:51,792 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:44:52,310 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 16:45:14,426 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 16:45:14,509 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,514 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,538 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,542 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,547 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,580 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,595 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,612 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,780 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,784 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 16:45:14,798 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 304 0
+WARNING 2019-05-02 16:45:14,877 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:45:15,135 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-02 16:47:56,885 base 152 Not Found: /addresses/user_center_order.html
+WARNING 2019-05-02 16:47:56,888 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 4778
+WARNING 2019-05-02 16:48:00,457 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:59:42,135 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 16:59:42,213 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:59:42,219 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 16:59:42,248 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:59:42,275 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:59:42,281 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:59:42,285 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:59:42,288 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 16:59:42,313 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 16:59:42,552 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:59:42,911 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-02 16:59:53,086 base 152 Not Found: /addresses/user_center_order.html
+WARNING 2019-05-02 16:59:53,088 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 4778
+WARNING 2019-05-02 16:59:54,982 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 16:59:57,853 basehttp 124 "GET /info/ HTTP/1.1" 200 7849
+WARNING 2019-05-02 16:59:58,076 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+WARNING 2019-05-02 16:59:58,208 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 16:59:58,210 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4733
+INFO 2019-05-02 17:00:00,183 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+WARNING 2019-05-02 17:00:00,440 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:00:00,714 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:02:55,511 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:02:55,598 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:02:55,602 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:02:55,609 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:02:55,665 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:02:55,668 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:02:55,671 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:02:55,679 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:02:55,711 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 17:02:56,290 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:02:56,839 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:03:46,247 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:03:46,323 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:03:46,327 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:03:46,363 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:03:46,386 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:03:46,396 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:03:46,410 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:03:46,415 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:03:46,457 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 17:03:46,680 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:03:47,021 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:04:03,851 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:04:03,965 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:03,972 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:03,987 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:04,026 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:04,030 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:04,036 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:04,047 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:04,056 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 17:04:04,356 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:04:04,747 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:04:34,587 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:04:34,637 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:34,644 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:34,647 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:34,688 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:34,692 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:34,695 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:34,704 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:04:34,742 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 17:04:34,930 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:04:35,388 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:15:05,936 basehttp 124 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2019-05-02 17:15:08,706 basehttp 124 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2019-05-02 17:15:34,198 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 359
+INFO 2019-05-02 17:15:41,459 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:15:41,577 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:15:41,582 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:15:41,609 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:15:41,630 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:15:41,632 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:15:41,640 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:15:41,642 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:15:41,686 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 17:15:42,686 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:15:43,050 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:16:27,250 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:16:27,325 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:16:27,340 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:16:27,345 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:16:27,387 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:16:27,404 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:16:27,407 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:16:27,418 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:16:27,448 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 17:16:27,948 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:16:28,299 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-02 17:19:29,527 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:21:54,914 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:21:54,947 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:54,952 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:54,967 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:54,972 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:54,979 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:54,998 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:55,002 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:55,020 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:55,179 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:21:56,353 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:21:56,386 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:56,399 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:56,417 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:56,420 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:56,428 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:56,434 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:56,444 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:56,458 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 17:21:56,636 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:22:00,142 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-02 17:22:01,544 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2019-05-02 17:22:07,934 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:22:07,981 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:07,983 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:07,996 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:07,999 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,005 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,017 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,025 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,041 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,189 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:22:08,806 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:22:08,833 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,839 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,843 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,860 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,867 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,869 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,873 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:08,885 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:09,046 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:22:09,228 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:22:09,278 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:09,281 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:09,292 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:09,297 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:09,304 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:09,306 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:09,311 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:09,335 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 17:22:09,516 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:22:23,243 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-02 17:22:23,250 basehttp 124 "GET /login/ HTTP/1.1" 200 3605
+INFO 2019-05-02 17:22:23,304 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-05-02 17:22:23,312 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-05-02 17:22:23,316 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-05-02 17:22:23,320 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-05-02 17:22:23,323 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-05-02 17:22:23,361 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-05-02 17:22:23,371 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2019-05-02 17:22:23,382 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-05-02 17:22:23,453 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-05-02 17:22:23,469 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-05-02 17:22:23,476 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-05-02 17:22:38,116 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-02 17:22:38,142 basehttp 124 "GET / HTTP/1.1" 200 25118
+INFO 2019-05-02 17:22:38,168 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-05-02 17:22:38,178 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-05-02 17:22:38,192 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-05-02 17:22:38,202 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-05-02 17:22:38,229 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-05-02 17:22:38,257 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-05-02 17:22:38,264 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-05-02 17:22:38,277 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-05-02 17:22:38,293 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2019-05-02 17:22:38,298 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-05-02 17:22:38,302 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-05-02 17:22:38,309 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-05-02 17:22:38,320 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-05-02 17:22:38,329 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-05-02 17:22:38,336 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-05-02 17:22:38,340 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-05-02 17:22:38,428 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-05-02 17:22:38,432 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-05-02 17:22:38,435 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1418
+INFO 2019-05-02 17:22:38,484 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-05-02 17:22:38,835 base 152 Not Found: /carts/simple/
+WARNING 2019-05-02 17:22:38,835 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4721
+INFO 2019-05-02 17:22:42,403 basehttp 124 "GET /info/ HTTP/1.1" 200 7849
+INFO 2019-05-02 17:22:42,511 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-05-02 17:22:42,551 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2019-05-02 17:22:42,556 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+INFO 2019-05-02 17:22:42,567 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2019-05-02 17:22:42,590 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2019-05-02 17:22:42,754 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 17:22:42,758 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4733
+INFO 2019-05-02 17:22:44,436 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:22:44,524 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 13616
+INFO 2019-05-02 17:22:44,538 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2019-05-02 17:22:44,698 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:23:00,870 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-02 17:23:03,250 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2019-05-02 17:23:33,691 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 353
+INFO 2019-05-02 17:23:42,342 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:23:42,386 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:23:42,391 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:23:42,394 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:23:42,397 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:23:42,400 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:23:42,403 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:23:42,404 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:23:42,417 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 17:23:42,581 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:25:22,242 basehttp 124 "GET / HTTP/1.1" 200 25118
+INFO 2019-05-02 17:25:22,324 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-05-02 17:25:22,328 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-05-02 17:25:22,331 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-05-02 17:25:22,348 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-05-02 17:25:22,350 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-05-02 17:25:22,359 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-05-02 17:25:22,374 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-05-02 17:25:22,379 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-05-02 17:25:22,381 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1418
+INFO 2019-05-02 17:25:22,384 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-05-02 17:25:22,387 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-05-02 17:25:22,390 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-05-02 17:25:22,394 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-05-02 17:25:22,397 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-05-02 17:25:22,402 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-05-02 17:25:22,406 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-05-02 17:25:22,411 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2019-05-02 17:25:22,414 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-05-02 17:25:22,417 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-05-02 17:25:22,419 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-05-02 17:25:22,445 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-05-02 17:25:22,448 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-05-02 17:25:22,461 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-05-02 17:25:22,463 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-05-02 17:25:22,466 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-05-02 17:25:22,722 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-05-02 17:25:23,401 base 152 Not Found: /carts/simple/
+WARNING 2019-05-02 17:25:23,403 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4721
+INFO 2019-05-02 17:25:26,508 basehttp 124 "GET /login/ HTTP/1.1" 200 3605
+INFO 2019-05-02 17:25:26,579 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-05-02 17:25:26,583 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2019-05-02 17:25:26,783 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-05-02 17:25:26,793 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-05-02 17:25:26,802 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-05-02 17:25:45,077 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-02 17:25:45,082 basehttp 124 "GET / HTTP/1.1" 200 25118
+WARNING 2019-05-02 17:25:45,516 base 152 Not Found: /carts/simple/
+WARNING 2019-05-02 17:25:45,519 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4721
+INFO 2019-05-02 17:25:48,291 basehttp 124 "GET /info/ HTTP/1.1" 200 7849
+INFO 2019-05-02 17:25:48,388 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-05-02 17:25:48,429 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+INFO 2019-05-02 17:25:48,431 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2019-05-02 17:25:48,433 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+INFO 2019-05-02 17:25:48,461 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2019-05-02 17:25:48,592 base 152 Not Found: /browse_histories/
+WARNING 2019-05-02 17:25:48,595 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4733
+INFO 2019-05-02 17:25:50,547 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:25:50,584 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 13616
+INFO 2019-05-02 17:25:50,645 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2019-05-02 17:25:50,875 basehttp 124 "GET /areas/ HTTP/1.1" 200 52
+ERROR 2019-05-02 17:29:23,609 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 245, in get
+    address.append(address.dict_s())
+AttributeError: 'Address' object has no attribute 'append'
+ERROR 2019-05-02 17:29:23,722 basehttp 124 "GET /addresses/ HTTP/1.1" 500 91835
+ERROR 2019-05-02 17:29:24,928 exception 135 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/myproject/meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 245, in get
+    address.append(address.dict_s())
+AttributeError: 'Address' object has no attribute 'append'
+ERROR 2019-05-02 17:29:25,091 basehttp 124 "GET /addresses/ HTTP/1.1" 500 91835
+INFO 2019-05-02 17:31:09,686 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9105
+INFO 2019-05-02 17:31:09,700 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:31:09,703 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:31:09,705 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:31:09,710 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:31:09,729 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:31:09,732 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:31:09,736 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:31:09,737 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 17:31:09,889 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-02 17:37:35,166 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:40:28,790 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:40:28,841 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:28,850 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:28,853 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:28,858 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:28,887 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:28,894 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:28,898 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:28,899 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2019-05-02 17:40:29,132 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:40:29,330 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:40:36,447 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8334
+INFO 2019-05-02 17:40:45,964 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9105
+INFO 2019-05-02 17:40:46,021 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,030 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,063 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,071 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,073 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,091 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,102 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,111 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,221 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,226 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+INFO 2019-05-02 17:40:46,230 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 304 0
+WARNING 2019-05-02 17:40:46,241 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-02 17:40:46,418 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-02 17:40:59,853 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-02 17:40:59,868 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2019-05-03 08:36:25,350 basehttp 124 "GET / HTTP/1.1" 200 25118
+INFO 2019-05-03 08:36:25,394 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2019-05-03 08:36:25,815 base 152 Not Found: /carts/simple/
+WARNING 2019-05-03 08:36:25,816 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4907
+WARNING 2019-05-03 08:36:26,167 base 152 Not Found: /favicon.ico
+WARNING 2019-05-03 08:36:26,172 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4901
+INFO 2019-05-03 08:36:31,908 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-05-03 08:36:31,928 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 3605
+INFO 2019-05-03 08:36:45,003 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2019-05-03 08:36:45,040 basehttp 124 "GET /info/ HTTP/1.1" 200 7849
+WARNING 2019-05-03 08:36:45,330 base 152 Not Found: /browse_histories/
+WARNING 2019-05-03 08:36:45,333 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4919
+INFO 2019-05-03 08:36:47,344 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9105
+INFO 2019-05-03 08:36:47,950 basehttp 124 "GET /areas/ HTTP/1.1" 200 52
+INFO 2019-05-03 08:36:55,128 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-03 08:36:55,140 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+WARNING 2019-05-03 08:37:13,772 base 152 Not Found: /addresses/5/default/
+WARNING 2019-05-03 08:37:13,775 basehttp 124 "PUT /addresses/5/default/ HTTP/1.1" 404 4928
+WARNING 2019-05-03 08:37:14,415 base 152 Not Found: /addresses/5/default/
+WARNING 2019-05-03 08:37:14,418 basehttp 124 "PUT /addresses/5/default/ HTTP/1.1" 404 4928
+WARNING 2019-05-03 08:37:18,001 base 152 Not Found: /addresses/6/default/
+WARNING 2019-05-03 08:37:18,003 basehttp 124 "PUT /addresses/6/default/ HTTP/1.1" 404 4928
+INFO 2019-05-03 09:00:02,370 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9105
+INFO 2019-05-03 09:00:02,473 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:02,477 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:02,479 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:02,514 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:02,517 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:02,526 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:02,531 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:02,552 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:02,923 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 09:00:08,260 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-03 09:00:08,273 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2019-05-03 09:00:23,922 basehttp 124 "PUT /addresses/4/ HTTP/1.1" 200 382
+INFO 2019-05-03 09:00:33,144 basehttp 124 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2019-05-03 09:00:33,159 basehttp 124 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2019-05-03 09:00:48,587 basehttp 124 "PUT /addresses/5/ HTTP/1.1" 200 392
+INFO 2019-05-03 09:00:50,349 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9129
+INFO 2019-05-03 09:00:50,379 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:50,381 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:50,383 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:50,393 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:50,396 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:50,400 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:50,492 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:50,494 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:00:50,669 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-03 09:04:10,023 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-03 09:04:18,147 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9129
+INFO 2019-05-03 09:04:18,246 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-05-03 09:04:18,257 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-05-03 09:04:18,262 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-05-03 09:04:18,286 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-05-03 09:04:18,289 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-05-03 09:04:18,298 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-05-03 09:04:18,313 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 13616
+INFO 2019-05-03 09:04:18,317 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-05-03 09:04:18,443 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-05-03 09:04:18,444 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2019-05-03 09:04:18,451 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-05-03 09:04:18,614 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-03 09:04:18,739 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 09:08:17,354 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9129
+INFO 2019-05-03 09:08:17,423 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-05-03 09:08:17,427 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-05-03 09:08:17,433 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-05-03 09:08:17,448 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-05-03 09:08:17,455 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-05-03 09:08:17,482 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-05-03 09:08:17,490 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 13616
+INFO 2019-05-03 09:08:17,503 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-05-03 09:08:17,644 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-05-03 09:08:17,652 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-05-03 09:08:17,658 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+WARNING 2019-05-03 09:08:17,762 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-03 09:08:17,921 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 09:08:25,101 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-03 09:08:25,120 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2019-05-03 09:08:36,172 basehttp 124 "PUT /addresses/4/ HTTP/1.1" 200 84
+INFO 2019-05-03 09:08:40,374 basehttp 124 "PUT /addresses/4/ HTTP/1.1" 200 390
+INFO 2019-05-03 09:08:42,762 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9137
+INFO 2019-05-03 09:08:42,792 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:42,794 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:42,796 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:42,799 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:42,800 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:42,807 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:42,809 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:42,824 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:43,015 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 09:08:44,191 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9137
+INFO 2019-05-03 09:08:44,223 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:44,226 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:44,234 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:44,237 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:44,239 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:44,242 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:44,245 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:44,250 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 09:08:44,430 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 10:41:01,948 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9137
+INFO 2019-05-03 10:41:01,975 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:01,986 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:01,991 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:01,993 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:02,003 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:02,028 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:02,031 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:02,033 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:02,432 basehttp 124 "GET /areas/ HTTP/1.1" 200 52
+INFO 2019-05-03 10:41:08,848 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-03 10:41:08,862 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2019-05-03 10:41:17,636 basehttp 124 "DELETE /addresses/5/ HTTP/1.1" 200 51
+INFO 2019-05-03 10:41:21,234 basehttp 124 "DELETE /addresses/6/ HTTP/1.1" 200 51
+INFO 2019-05-03 10:41:24,530 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8599
+INFO 2019-05-03 10:41:24,570 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:24,574 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:24,584 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:24,589 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:24,593 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:24,596 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:24,600 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:24,605 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:24,799 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 10:41:25,833 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8599
+INFO 2019-05-03 10:41:25,872 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:25,875 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:25,886 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:25,892 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:25,897 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:25,901 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:25,911 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:25,928 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:26,021 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 10:41:27,598 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8599
+INFO 2019-05-03 10:41:27,624 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:27,629 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:27,646 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:27,651 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:27,656 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:27,660 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:27,665 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:27,682 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:27,756 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 10:41:43,066 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8599
+INFO 2019-05-03 10:41:43,098 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:43,101 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:43,104 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:43,107 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:43,120 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:43,127 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:43,130 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:43,131 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 10:41:43,459 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-03 10:41:45,824 base 93 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2019-05-03 10:41:45,824 basehttp 124 "DELETE /addresses/4/ HTTP/1.1" 405 0
+WARNING 2019-05-03 10:41:46,216 base 93 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2019-05-03 10:41:46,216 basehttp 124 "DELETE /addresses/4/ HTTP/1.1" 405 0
+WARNING 2019-05-03 10:41:46,417 base 93 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2019-05-03 10:41:46,418 basehttp 124 "DELETE /addresses/4/ HTTP/1.1" 405 0
+WARNING 2019-05-03 10:41:46,622 base 93 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2019-05-03 10:41:46,623 basehttp 124 "DELETE /addresses/4/ HTTP/1.1" 405 0
+WARNING 2019-05-03 10:41:46,861 base 93 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2019-05-03 10:41:46,862 basehttp 124 "DELETE /addresses/4/ HTTP/1.1" 405 0
+WARNING 2019-05-03 10:41:47,068 base 93 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2019-05-03 10:41:47,070 basehttp 124 "DELETE /addresses/4/ HTTP/1.1" 405 0
+WARNING 2019-05-03 10:41:47,279 base 93 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2019-05-03 10:41:47,280 basehttp 124 "DELETE /addresses/4/ HTTP/1.1" 405 0
+WARNING 2019-05-03 10:41:47,456 base 93 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2019-05-03 10:41:47,459 basehttp 124 "DELETE /addresses/4/ HTTP/1.1" 405 0
+INFO 2019-05-03 10:42:07,440 basehttp 124 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2019-05-03 10:42:08,264 basehttp 124 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2019-05-03 10:42:33,601 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 367
+INFO 2019-05-03 10:42:48,540 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8872
+INFO 2019-05-03 10:42:48,586 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:42:48,589 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:42:48,601 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:42:48,606 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:42:48,615 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:42:48,617 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:42:48,620 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:42:48,636 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 10:42:48,891 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 10:43:01,323 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8872
+INFO 2019-05-03 10:43:01,350 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:01,354 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:01,366 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:01,369 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:01,378 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:01,380 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:01,383 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:01,401 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:01,582 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-03 10:43:03,358 base 93 Method Not Allowed (DELETE): /addresses/7/
+WARNING 2019-05-03 10:43:03,360 basehttp 124 "DELETE /addresses/7/ HTTP/1.1" 405 0
+WARNING 2019-05-03 10:43:03,642 base 93 Method Not Allowed (DELETE): /addresses/7/
+WARNING 2019-05-03 10:43:03,645 basehttp 124 "DELETE /addresses/7/ HTTP/1.1" 405 0
+WARNING 2019-05-03 10:43:03,857 base 93 Method Not Allowed (DELETE): /addresses/7/
+WARNING 2019-05-03 10:43:03,860 basehttp 124 "DELETE /addresses/7/ HTTP/1.1" 405 0
+INFO 2019-05-03 10:43:10,327 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8872
+INFO 2019-05-03 10:43:10,337 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:10,352 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:10,373 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:10,395 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:10,402 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:10,406 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:10,413 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:10,423 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 10:43:10,572 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 10:43:12,420 basehttp 124 "DELETE /addresses/7/ HTTP/1.1" 200 51
+INFO 2019-05-03 13:15:40,967 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8599
+INFO 2019-05-03 13:15:40,993 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:15:41,025 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:15:41,040 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:15:41,044 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:15:41,046 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:15:41,050 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:15:41,053 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:15:41,057 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 13:15:41,213 basehttp 124 "GET /areas/ HTTP/1.1" 200 52
+INFO 2019-05-03 13:16:03,473 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8599
+INFO 2019-05-03 13:16:03,515 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:03,520 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:03,542 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:03,554 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:03,560 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:03,562 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:03,565 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:03,573 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:03,885 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 13:16:04,580 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8599
+INFO 2019-05-03 13:16:04,615 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:04,618 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:04,631 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:04,637 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:04,649 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:04,650 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:04,652 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:04,677 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 13:16:04,876 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 13:16:16,695 basehttp 124 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2019-05-03 13:16:17,817 basehttp 124 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2019-05-03 13:16:40,395 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 367
+INFO 2019-05-03 13:16:43,507 basehttp 124 "PUT /addresses/8/default/ HTTP/1.1" 200 51
+INFO 2019-05-03 13:26:48,436 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8872
+INFO 2019-05-03 13:26:48,466 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:26:48,477 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:26:48,486 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:26:48,501 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:26:48,505 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:26:48,508 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:26:48,509 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:26:48,522 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 13:26:48,896 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 13:27:07,855 basehttp 124 "PUT /addresses/4/title/ HTTP/1.1" 200 75
+INFO 2019-05-03 13:27:27,057 basehttp 124 "PUT /addresses/8/title/ HTTP/1.1" 200 75
+INFO 2019-05-03 13:27:28,930 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8875
+INFO 2019-05-03 13:27:28,955 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:28,975 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:28,977 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:28,982 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:28,984 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:28,987 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:28,993 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:29,006 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:29,180 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 13:27:52,059 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8875
+INFO 2019-05-03 13:27:52,073 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:52,077 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:52,094 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:52,109 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:52,119 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:52,122 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:52,125 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:52,132 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 13:27:52,288 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-03 13:27:59,012 base 152 Not Found: /addresses/4/title/
+WARNING 2019-05-03 13:27:59,013 basehttp 124 "PUT /addresses/4/title/ HTTP/1.1" 404 5116
+WARNING 2019-05-03 13:28:00,170 base 152 Not Found: /addresses/4/title/
+WARNING 2019-05-03 13:28:00,171 basehttp 124 "PUT /addresses/4/title/ HTTP/1.1" 404 5116
+WARNING 2019-05-03 13:28:00,389 base 152 Not Found: /addresses/4/title/
+WARNING 2019-05-03 13:28:00,392 basehttp 124 "PUT /addresses/4/title/ HTTP/1.1" 404 5116
+INFO 2019-05-03 13:28:14,536 basehttp 124 "GET /info/ HTTP/1.1" 200 7849
+INFO 2019-05-03 13:28:14,575 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,579 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,584 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,587 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,593 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,611 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,630 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,640 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,655 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,665 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,672 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,689 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 304 0
+INFO 2019-05-03 13:28:14,703 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 304 0
+WARNING 2019-05-03 13:28:14,907 base 152 Not Found: /browse_histories/
+WARNING 2019-05-03 13:28:14,909 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5305
+INFO 2019-05-03 13:28:19,156 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8875
+INFO 2019-05-03 13:28:19,444 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-05-03 14:26:01,576 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-03 15:16:09,403 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8875
+INFO 2019-05-03 15:16:09,442 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:09,449 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:09,454 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:09,458 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:09,462 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:09,527 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:09,528 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:09,534 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:09,900 basehttp 124 "GET /areas/ HTTP/1.1" 200 52
+INFO 2019-05-03 15:16:11,353 basehttp 124 "GET /password/ HTTP/1.1" 200 8334
+INFO 2019-05-03 15:16:11,728 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 15:16:13,561 basehttp 124 "GET /password/ HTTP/1.1" 200 8334
+INFO 2019-05-03 15:16:13,813 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 15:16:15,041 basehttp 124 "GET /password/ HTTP/1.1" 200 8334
+INFO 2019-05-03 15:16:15,223 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 15:16:18,337 basehttp 124 "GET /password/ HTTP/1.1" 200 8334
+INFO 2019-05-03 15:16:18,504 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 15:16:20,022 basehttp 124 "GET /password/ HTTP/1.1" 200 8334
+INFO 2019-05-03 15:16:20,199 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 15:16:21,154 basehttp 124 "GET /password/ HTTP/1.1" 200 8334
+INFO 2019-05-03 15:16:21,302 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 15:16:22,373 basehttp 124 "GET /password/ HTTP/1.1" 200 8334
+INFO 2019-05-03 15:16:22,562 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-05-03 15:16:33,849 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-05-03 15:16:33,962 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:33,966 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:33,972 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:33,981 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:34,000 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:34,003 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:34,025 basehttp 124 "GET /static/js/user_center_pass.js HTTP/1.1" 200 1493
+INFO 2019-05-03 15:16:34,041 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-03 15:16:35,983 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+WARNING 2019-05-03 15:16:45,623 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1667
+INFO 2019-05-03 15:45:12,494 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-05-03 15:45:12,533 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-05-03 15:45:12,545 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-05-03 15:45:12,561 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-05-03 15:45:12,595 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-05-03 15:45:12,595 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-05-03 15:45:12,609 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-05-03 15:45:12,616 basehttp 124 "GET /static/js/user_center_pass.js HTTP/1.1" 200 1493
+INFO 2019-05-03 15:45:12,624 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-05-03 15:45:31,235 basehttp 124 "POST /password/ HTTP/1.1" 302 0
+INFO 2019-05-03 15:45:31,332 basehttp 124 "GET / HTTP/1.1" 200 25118
+WARNING 2019-05-03 15:45:31,850 base 152 Not Found: /carts/simple/
+WARNING 2019-05-03 15:45:31,853 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5452
+INFO 2019-05-03 15:46:01,829 basehttp 124 "GET /login/ HTTP/1.1" 200 3605
+INFO 2019-05-03 15:46:20,992 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-05-03 15:46:21,004 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 3605
+INFO 2019-05-03 15:46:30,869 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2019-05-03 15:46:30,900 basehttp 124 "GET /info/ HTTP/1.1" 200 7849
+WARNING 2019-05-03 15:46:31,159 base 152 Not Found: /browse_histories/
+WARNING 2019-05-03 15:46:31,164 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5464
+INFO 2019-05-03 15:46:34,102 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-05-03 15:46:45,913 basehttp 124 "POST /password/ HTTP/1.1" 302 0
+INFO 2019-05-03 15:46:45,920 basehttp 124 "GET /login/ HTTP/1.1" 200 3605
+INFO 2019-05-03 15:46:56,813 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-03 15:46:56,827 basehttp 124 "GET / HTTP/1.1" 200 25118
+WARNING 2019-05-03 15:46:57,267 base 152 Not Found: /carts/simple/
+WARNING 2019-05-03 15:46:57,268 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5452

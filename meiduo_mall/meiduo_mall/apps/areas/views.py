@@ -3,7 +3,7 @@ from django import http
 from meiduo_mall.utils.response_code import RETCODE
 from django.views.generic import View
 from areas.models import Area
-#缓冲
+# 缓冲
 from django.core.cache import cache
 
 
@@ -20,16 +20,14 @@ class AreaView(View):
                         'id': pave.id,
                         'name': pave.name,
                     })
-                province_List = cache.set('province_List',province_List,3600)
+                province_List = cache.set('province_List', province_List, 3600)
             return http.JsonResponse({
                 'code': RETCODE.OK,
                 'errmsg': 'ok',
                 'province_list': province_List
             })
-
-
         else:
-            sub_data=cache.get('area_id'+area_id)
+            sub_data = cache.get('area_id' + area_id)
             if sub_data is None:
                 try:
 
@@ -52,9 +50,9 @@ class AreaView(View):
                         'name': area.name,
                         'subs': sub_list
                     }
-                    cache.set('area_'+area_id,sub_data,3600)
-                return http.JsonResponse({
-                    'code': RETCODE.OK,
-                    'errmsg': 'ok',
-                    'sub_data': sub_data
-                })
+                    cache.set('area_' + area_id, sub_data, 3600)
+            return http.JsonResponse({
+                'code': RETCODE.OK,
+                'errmsg': 'ok',
+                'sub_data': sub_data
+            })
