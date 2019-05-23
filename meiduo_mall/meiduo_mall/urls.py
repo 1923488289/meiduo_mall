@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^', include('contents.urls')),
     url(r'^', include('auoth.urls')),
     url(r'^', include('areas.urls')),
-    url(r'^',include('advertisement.urls'))
+    url(r'^', include('advertisement.urls')),
+    url(r'^', include('goods.urls'))
 ]

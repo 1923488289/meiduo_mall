@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'contents.apps.ContentsConfig',
     'auoth.apps.AuothConfig',
     'areas.apps.AreasConfig',
-    'advertisement.apps.AdvertisementConfig'
+    'advertisement.apps.AdvertisementConfig',
+    'goods.apps.GoodsConfig'
 ]
 
 MIDDLEWARE = [
