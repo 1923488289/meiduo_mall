@@ -222,6 +222,7 @@ AUTH_USER_MODEL = 'users.User'
 AUTHENTICATION_BACKENDS = ['meiduo_mall.utils.auth_backend.Meiduobackend']
 # 指定用户如果不在登录状态
 LOGIN_URL = '/login/'
+
 # qq认证信息
 QQ_CLIENT_ID = '101518219'
 QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
@@ -238,3 +239,8 @@ EMAIL_HOST_USER = 'hmmeiduo@163.com' # 授权的邮箱
 EMAIL_HOST_PASSWORD = 'hmmeiduo123' # 邮箱授权时获得的密码，非注册登录密码
 EMAIL_FROM = '美多商城<hmmeiduo@163.com>'  # 发件人抬头
 EMAIL_ACTIVE_URL = 'http://www.meiduo.site:8000/emails/verification/'  # 激活路径
+
+# fastdfs 访问图片的前缀
+FDFS_URL = 'http://image.meiduo.site:8888/'
+#指定django文件存储类型
+DEFAULT_FILE_STORAGE = 'meiduo_mall.utils.storage.FdfsStorage'

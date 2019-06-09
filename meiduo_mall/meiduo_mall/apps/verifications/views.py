@@ -54,7 +54,7 @@ class SMSCodeView(View):
                     'errmsg': '图片验证码错误'
                 }
             )
-        # t图片验证码过期
+        # 图片验证码过期
         redis_server.delete(uuid)
         #
         if redis_server.get('sms_s_' + mobile):

@@ -200,6 +200,7 @@ class EmailView(LoginRequiredJSONMixin, View):
         token = itsdangerous.dumps({'user_id': user.id}, contants.EMAIL_ACTIVE_EXPIRES)
         # 设置 路径，激活用户的邮箱
         url = settings.EMAIL_ACTIVE_URL + '?token=%s' % token
+
         print(url)
         send_virify_email.delay(email, url)
         print('-------------===========')
